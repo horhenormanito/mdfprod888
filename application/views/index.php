@@ -155,7 +155,7 @@
 	<!-- /home wrapper -->
 
 	<!-- About -->
-	<div id="about" class="section md-padding sub-menu-padding">
+	<div id="about" class="section md-padding">
 
 		<!-- Container -->
 		<div class="container">
