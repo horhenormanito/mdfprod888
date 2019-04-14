@@ -10,7 +10,8 @@
 	<title>The Core by MDF Productions</title>
 
 	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Roboto:200" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -71,9 +72,9 @@
 					<li><a href="#about"><img src="data/img/icons/about us.png">About</a></li>
 					<li><a href="#portfolio"><img src="data/img/icons/gallery.png">Gallery</a></li>
 					<li><a href="#service"><img src="data/img/icons/services.png">Services & Rates</a></li>
-					<li><a href="#team"><img src="data/img/icons/our team.png">Our Team</a></li>
+					<li><a href="#team"><img src="data/img/icons/our team.png">Team</a></li>
 <!-- 					<li><a href="#team">Team</a></li> -->
-					<li class="has-dropdown"><a href="#blog"><img src="data/img/icons/whats up.png"/>What's Up</a>
+					<li class="has-dropdown"><a href="#blog"><img src="data/img/icons/whats up.png"/>News</a>
 						<ul class="dropdown">
 							<li><a href="blog-single.html">blog post</a></li>
 						</ul>
