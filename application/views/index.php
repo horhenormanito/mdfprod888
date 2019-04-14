@@ -71,7 +71,7 @@
 					<li><a href="#home"><img src="data/img/icons/home.png"></img>Home</a></li>
 					<li><a href="#about"><img src="data/img/icons/about us.png">About</a></li>
 					<li><a href="#portfolio"><img src="data/img/icons/gallery.png">Gallery</a></li>
-					<li><a href="#service"><img src="data/img/icons/services.png">Services & Rates</a></li>
+					<li><a href="#service"><img src="data/img/icons/services.png">Services</a></li>
 					<li><a href="#team"><img src="data/img/icons/our team.png">Team</a></li>
 <!-- 					<li><a href="#team">Team</a></li> -->
 					<li class="has-dropdown"><a href="#blog"><img src="data/img/icons/whats up.png"/>News</a>
@@ -166,7 +166,7 @@
 				<!-- Section header -->
 				<div class="section-header text-center">
 					<h2 class="title">What is The Core?</h2>
-					<p> <h3  class="section-header text-center">"A multi-faceted community space that aspires to inspire passionate souls - a space where one can express themselves freely and uniquely..."</h3></p>
+					<p> <h3  class="section-header text-center">"A multi-faceted community space that aspires to inspire passionate souls - a space where one can express themselves freely and uniquely."</h3></p>
 				</div>
 				
 				
@@ -346,87 +346,87 @@
 	<!-- /Portfolio -->
 
 	<!-- Service -->
-	<div id="service" class="section md-padding">
+<!-- 	<div id="service-not needed" class="section md-padding"> -->
 
 		<!-- Container -->
-		<div class="container">
+<!-- 		<div class="container"> -->
 
 			<!-- Row -->
-			<div class="row">
+<!-- 			<div class="row"> -->
 
 				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">What we offer</h2>
-				</div>
+<!-- 				<div class="section-header text-center"> -->
+<!-- 					<h2 class="title">What we offer</h2> -->
+<!-- 				</div> -->
 				<!-- /Section header -->
 
 				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-diamond"></i>
-						<h3>App Development</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
+<!-- 				<div class="col-md-4 col-sm-6"> -->
+<!-- 					<div class="service"> -->
+<!-- 						<i class="fa fa-diamond"></i> -->
+<!-- 						<h3>App Development</h3> -->
+<!-- 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /service -->
 
 				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-rocket"></i>
-						<h3>Graphic Design</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
+<!-- 				<div class="col-md-4 col-sm-6"> -->
+<!-- 					<div class="service"> -->
+<!-- 						<i class="fa fa-rocket"></i> -->
+<!-- 						<h3>Graphic Design</h3> -->
+<!-- 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /service -->
 
 				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-cogs"></i>
-						<h3>Creative Idea</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
+<!-- 				<div class="col-md-4 col-sm-6"> -->
+<!-- 					<div class="service"> -->
+<!-- 						<i class="fa fa-cogs"></i> -->
+<!-- 						<h3>Creative Idea</h3> -->
+<!-- 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /service -->
 
 				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-diamond"></i>
-						<h3>Marketing</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
+<!-- 				<div class="col-md-4 col-sm-6"> -->
+<!-- 					<div class="service"> -->
+<!-- 						<i class="fa fa-diamond"></i> -->
+<!-- 						<h3>Marketing</h3> -->
+<!-- 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /service -->
 
 				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-pencil"></i>
-						<h3>Awesome Support</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
+<!-- 				<div class="col-md-4 col-sm-6"> -->
+<!-- 					<div class="service"> -->
+<!-- 						<i class="fa fa-pencil"></i> -->
+<!-- 						<h3>Awesome Support</h3> -->
+<!-- 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /service -->
 
 				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-flask"></i>
-						<h3>Brand Design</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
+<!-- 				<div class="col-md-4 col-sm-6"> -->
+<!-- 					<div class="service"> -->
+<!-- 						<i class="fa fa-flask"></i> -->
+<!-- 						<h3>Brand Design</h3> -->
+<!-- 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /service -->
 
-			</div>
+<!-- 			</div> -->
 			<!-- /Row -->
 
-		</div>
+<!-- 		</div> -->
 		<!-- /Container -->
 
-	</div>
+<!-- 	</div> -->
 	<!-- /Service -->
 
 
@@ -442,24 +442,24 @@
 				<!-- why choose us content -->
 				<div class="col-md-6">
 					<div class="section-header">
-						<h2 class="title">Why Choose Us</h2>
+						<h2 class="title">Featured Video</h2>
 					</div>
-					<p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+					<p>Be part of The Core Dance Group...</p>
 					<div class="feature">
 						<i class="fa fa-check"></i>
-						<p>Quis varius quam quisque id diam vel quam elementum.</p>
-					</div>
-					<div class="feature">
-						<i class="fa fa-check"></i>
-						<p>Mauris augue neque gravida in fermentum.</p>
+						<p>Express Yourself At The Core.</p>
 					</div>
 					<div class="feature">
 						<i class="fa fa-check"></i>
-						<p>Orci phasellus egestas tellus rutrum.</p>
+						<p>Be Part Of Us.</p>
 					</div>
 					<div class="feature">
 						<i class="fa fa-check"></i>
-						<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+						<p>Aspire to Inspire at The Core!</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Release Yourself And See You.</p>
 					</div>
 				</div>
 				<!-- /why choose us content -->
@@ -501,45 +501,10 @@
 			<div class="row">
 
 				<!-- number -->
-				<div class="col-sm-3 col-xs-6">
-					<div class="number">
-						<i class="fa fa-users"></i>
-						<h3 class="white-text"><span class="counter">451</span></h3>
-						<span class="white-text">Happy clients</span>
-					</div>
-				</div>
+<!-- 				<div class="col-sm-3 col-xs-6"> -->
+						<p> <h3  class="section-header text-center white-text">"The Core is a space that welcomes all walks of life who yearn to physically manifest their inner core - whether they may be a performer, a fitness instructor, a craftsman, an art exhibitor or plainly, someone looking for a good time. "</h3></p>
+<!-- 				</div> -->
 				<!-- /number -->
-
-				<!-- number -->
-				<div class="col-sm-3 col-xs-6">
-					<div class="number">
-						<i class="fa fa-trophy"></i>
-						<h3 class="white-text"><span class="counter">12</span></h3>
-						<span class="white-text">Awards won</span>
-					</div>
-				</div>
-				<!-- /number -->
-
-				<!-- number -->
-				<div class="col-sm-3 col-xs-6">
-					<div class="number">
-						<i class="fa fa-coffee"></i>
-						<h3 class="white-text"><span class="counter">154</span>K</h3>
-						<span class="white-text">Cups of Coffee</span>
-					</div>
-				</div>
-				<!-- /number -->
-
-				<!-- number -->
-				<div class="col-sm-3 col-xs-6">
-					<div class="number">
-						<i class="fa fa-file"></i>
-						<h3 class="white-text"><span class="counter">45</span></h3>
-						<span class="white-text">Projects completed</span>
-					</div>
-				</div>
-				<!-- /number -->
-
 			</div>
 			<!-- /Row -->
 
@@ -550,7 +515,9 @@
 	<!-- /Numbers -->
 
 	<!-- Pricing -->
-	<div id="pricing" class="section md-padding">
+<!-- 	<div id="pricing" class="section md-padding"> -->
+	<div id="service" class="section md-padding">
+
 
 		<!-- Container -->
 		<div class="container">
@@ -560,90 +527,152 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Pricing Table</h2>
+					<h2 class="title">What We Offer</h2>
 				</div>
 				<!-- /Section header -->
-
+				
 				<!-- pricing -->
 				<div class="col-sm-4">
 					<div class="pricing">
 						<div class="price-head">
-							<span class="price-title">Basic plan</span>
+							<span class="price-title">Yoga</span>
 							<div class="price">
-								<h3>$9<span class="duration">/ month</span></h3>
+								<h3>188<span class="duration">/Session</span>1288<span class="duration">/Mo.</span></h3>							
 							</div>
 						</div>
 						<ul class="price-content">
 							<li>
-								<p>1GB Disk Space</p>
+								<p>Tuesdays 7:30 PM</p>
 							</li>
 							<li>
-								<p>100 Email Account</p>
+								<p>Fridays 10:00 PM</p>
 							</li>
 							<li>
-								<p>24/24 Support</p>
+								<p>By: Jeff Dan Barientos</p>
 							</li>
 						</ul>
 						<div class="price-btn">
-							<button class="outline-btn">Purchase now</button>
+							<button class="outline-btn">Book now</button>
 						</div>
 					</div>
 				</div>
 				<!-- /pricing -->
-
+				
+				
 				<!-- pricing -->
 				<div class="col-sm-4">
 					<div class="pricing">
 						<div class="price-head">
-							<span class="price-title">Silver plan</span>
+							<span class="price-title">Pop Dance</span>
 							<div class="price">
-								<h3>$19<span class="duration">/ month</span></h3>
+								<h3>188<span class="duration">/Session</span>588<span class="duration">/Mo.</span></h3>							
 							</div>
 						</div>
 						<ul class="price-content">
 							<li>
-								<p>1GB Disk Space</p>
+								<p>Thursdays 7:30 PM</p>
 							</li>
 							<li>
-								<p>100 Email Account</p>
-							</li>
-							<li>
-								<p>24/24 Support</p>
+								<p>By: Mia Cabarrubias</p>
 							</li>
 						</ul>
 						<div class="price-btn">
-							<button class="outline-btn">Purchase now</button>
+							<button class="outline-btn">Book now</button>
 						</div>
 					</div>
 				</div>
-				<!-- /pricing -->
-
+				<!-- /pricing -->	
+				
 				<!-- pricing -->
 				<div class="col-sm-4">
 					<div class="pricing">
 						<div class="price-head">
-							<span class="price-title">Gold plan</span>
+							<span class="price-title">Meditation</span>
 							<div class="price">
-								<h3>$39<span class="duration">/ month</span></h3>
+								<h3>188<span class="duration">/Session</span>588<span class="duration">/Mo.</span></h3>							
 							</div>
 						</div>
 						<ul class="price-content">
 							<li>
-								<p>1GB Disk Space</p>
-							</li>
-							<li>
-								<p>100 Email Account</p>
-							</li>
-							<li>
-								<p>24/24 Support</p>
+								<p>Thursdays 6:00 PM</p>
 							</li>
 						</ul>
 						<div class="price-btn">
-							<button class="outline-btn">Purchase now</button>
+							<button class="outline-btn">Book now</button>
 						</div>
 					</div>
 				</div>
-				<!-- /pricing -->
+				<!-- /pricing -->	
+				
+			<!-- Row -->	
+			</div>	
+			
+			
+			
+			
+			
+			
+			
+			<!-- Row -->
+			<div class="row">	
+				
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Space Rentals</span>
+							<div class="price">
+								<h3>Php 2588<span class="duration">/ 4 Hours</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>Php 3888 : 6 Hours</p>
+							</li>
+							<li>
+								<p>Php 5188 : 8 Hours</p>
+							</li>
+							<li>
+								<p>Php 6488 : 10 Hours</p>
+							</li>
+							<li>
+								<p>Php 7788 : 12 Hours</p>
+							</li>		
+							<li>
+								<p>Rates inclusive of AC and Sound</p>
+							</li>	
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Book now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->				
+
+								
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Sexy Tease Dance</span>
+							<div class="price">
+								<h3>188<span class="duration">/Session</span>588<span class="duration">/Mo.</span></h3>							
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>Wednesdays 7:30 PM</p>
+							</li>
+							<li>
+								<p>By: Mia Cabarrubias</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Book now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->				
 
 			</div>
 			<!-- Row -->
@@ -655,7 +684,34 @@
 	<!-- /Pricing -->
 
 
-	<!-- Testimonial -->
+	
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+				
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->				
+
+
+<!-- Testimonial -->
 	<div id="testimonial" class="section md-padding">
 
 		<!-- Background Image -->
@@ -673,29 +729,82 @@
 				<!-- Testimonial slider -->
 				<div class="col-md-10 col-md-offset-1">
 					<div id="testimonial-slider" class="owl-carousel owl-theme">
+					
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./data/img/Margo.jpg" alt="">
+								<h3 class="white-text">Margarita Domingo Frasco</h3>
+								<span>Owner/CEO</span>
+								<span>
+    								<div class="team-social">
+    									<a href="#"><i class="fa fa-facebook"></i></a>
+    									<a href="#"><i class="fa fa-instagram"></i></a>
+    									<a href="#"><i class="fa fa-twitter"></i></a>
+    								</div>
+								</span>
+								
+							</div>
+<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
+						</div>
+						<!-- /testimonial -->					
 
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./data/img/perso1.jpg" alt="">
-								<h3 class="white-text">John Doe</h3>
-								<span>Web Designer</span>
+								<img src="./data/img/Ivy.jpg" alt="">
+								<h3 class="white-text">Ivy Melody Gallur</h3>
+								<span>General Manager</span>
+								<span>
+    								<div class="team-social">
+    									<a href="#"><i class="fa fa-facebook"></i></a>
+    									<a href="#"><i class="fa fa-instagram"></i></a>
+    									<a href="#"><i class="fa fa-twitter"></i></a>
+    								</div>
+								</span>								
+								
 							</div>
-							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 						</div>
 						<!-- /testimonial -->
-
+						
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./data/img/perso2.jpg" alt="">
-								<h3 class="white-text">John Doe</h3>
-								<span>Web Designer</span>
+								<img src="./data/img/Manchie.jpg" alt="">
+								<h3 class="white-text">Manchie Maloloy-on</h3>
+								<span>Marketing Manager</span>
+								<span>
+    								<div class="team-social">
+    									<a href="#"><i class="fa fa-facebook"></i></a>
+    									<a href="#"><i class="fa fa-instagram"></i></a>
+    									<a href="#"><i class="fa fa-twitter"></i></a>
+    								</div>
+								</span>								
 							</div>
-							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 						</div>
 						<!-- /testimonial -->
-
+						
+						
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./data/img/Rufe.jpg" alt="">
+								<h3 class="white-text">Rufie</h3>
+								<span>Digital Specialist</span>
+								<span>
+    								<div class="team-social">
+    									<a href="#"><i class="fa fa-facebook"></i></a>
+    									<a href="#"><i class="fa fa-instagram"></i></a>
+    									<a href="#"><i class="fa fa-twitter"></i></a>
+    								</div>
+								</span>								
+							</div>
+<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
+						</div>
+						<!-- /testimonial -->						
+						
 					</div>
 				</div>
 				<!-- /Testimonial slider -->
@@ -709,113 +818,94 @@
 	</div>
 	<!-- /Testimonial -->
 
-	<!-- Team -->
-	<div id="team" class="section md-padding">
 
-		<!-- Container -->
-		<div class="container">
 
-			<!-- Row -->
-			<div class="row">
 
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Our Team</h2>
-				</div>
-				<!-- /Section header -->
 
 				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./data/img/Margo.jpg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Margarita Frasco</h3>
-							<span>Owner/CEO</span>
-						</div>
-					</div>
-				</div>
+<!-- 				<div class="col-sm-3"> -->
+<!-- 					<div class="team"> -->
+<!-- 						<div class="team-img"> -->
+<!-- 							<img class="img-responsive" src="./data/img/Margo.jpg" alt=""> -->
+<!-- 							<div class="overlay"> -->
+<!-- 								<div class="team-social"> -->
+<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="team-content"> -->
+<!-- 							<h3>Margarita Frasco</h3> -->
+<!-- 							<span>Owner/CEO</span> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /team -->
 
 				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./data/img/Ivy.jpg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Ivy Melody Gallur</h3>
-							<span>General Manager</span>
-						</div>
-					</div>
-				</div>
+<!-- 				<div class="col-sm-3"> -->
+<!-- 					<div class="team"> -->
+<!-- 						<div class="team-img"> -->
+<!-- 							<img class="img-responsive" src="./data/img/Ivy.jpg" alt=""> -->
+<!-- 							<div class="overlay"> -->
+<!-- 								<div class="team-social"> -->
+<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="team-content"> -->
+<!-- 							<h3>Ivy Melody Gallur</h3> -->
+<!-- 							<span>General Manager</span> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /team -->
 
 				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./data/img/Manchie.jpg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Manchie Maloloyon</h3>
-							<span>Marketing Manager</span>
-						</div>
-					</div>
-				</div>
+<!-- 				<div class="col-sm-3"> -->
+<!-- 					<div class="team"> -->
+<!-- 						<div class="team-img"> -->
+<!-- 							<img class="img-responsive" src="./data/img/Manchie.jpg" alt=""> -->
+<!-- 							<div class="overlay"> -->
+<!-- 								<div class="team-social"> -->
+<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="team-content"> -->
+<!-- 							<h3>Manchie Maloloyon</h3> -->
+<!-- 							<span>Marketing Manager</span> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /team -->
 				
 				<!-- team -->
-				<div class="col-sm-3">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./data/img/Rufe.jpg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Rufie</h3>
-							<span>Digital Specialist</span>
-						</div>
-					</div>
-				</div>
+<!-- 				<div class="col-sm-3"> -->
+<!-- 					<div class="team"> -->
+<!-- 						<div class="team-img"> -->
+<!-- 							<img class="img-responsive" src="./data/img/Rufe.jpg" alt=""> -->
+<!-- 							<div class="overlay"> -->
+<!-- 								<div class="team-social"> -->
+<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
+<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="team-content"> -->
+<!-- 							<h3>Rufie</h3> -->
+<!-- 							<span>Digital Specialist</span> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 				<!-- /team -->
 
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Team -->
 
 	<!-- Blog -->
 	<div id="blog" class="section md-padding bg-grey">
