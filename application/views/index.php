@@ -1010,7 +1010,7 @@
 					<!-- >div id="map"></div-->
 					<div class="mapouter">
 						<div class="gmap_canvas">
-							<iframe width="550" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=the%20core%20ny%20mdf%20productions&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+							<iframe width="550" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=the%20core%20by%20mdf%20productions&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
 							</iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
 						</div>
 						<style>.mapouter{position:relative;text-align:right;height:450px;width:550px;}.gmap_canvas {border-radius:15px; overflow:hidden;background:none!important;height:450px;width:550px;}</style>
