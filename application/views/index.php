@@ -532,12 +532,36 @@
 				<!-- /Section header -->
 				
 				<!-- pricing -->
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<div class="pricing">
 						<div class="price-head">
 							<span class="price-title">Yoga</span>
 							<div class="price">
-								<h3>188<span class="duration">/Session</span>1288<span class="duration">/Mo.</span></h3>							
+								<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>Tuesdays 7:30 PM</p>
+							</li>
+							<li>
+								<p>Fridays 10:00 PM</p>
+							</li>
+							<li>
+								<p>By: Jeff Dan Barientos</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Book now</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Yoga</span>
+							<div class="price">
+								<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
 							</div>
 						</div>
 						<ul class="price-content">
@@ -560,12 +584,12 @@
 				
 				
 				<!-- pricing -->
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<div class="pricing">
 						<div class="price-head">
 							<span class="price-title">Pop Dance</span>
 							<div class="price">
-								<h3>188<span class="duration">/Session</span>588<span class="duration">/Mo.</span></h3>							
+								<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
 							</div>
 						</div>
 						<ul class="price-content">
@@ -584,12 +608,12 @@
 				<!-- /pricing -->	
 				
 				<!-- pricing -->
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<div class="pricing">
 						<div class="price-head">
 							<span class="price-title">Meditation</span>
 							<div class="price">
-								<h3>188<span class="duration">/Session</span>588<span class="duration">/Mo.</span></h3>							
+								<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
 							</div>
 						</div>
 						<ul class="price-content">
@@ -604,43 +628,31 @@
 				</div>
 				<!-- /pricing -->	
 				
-			<!-- Row -->	
-			</div>	
-			
-			
-			
-			
-			
-			
-			
-			<!-- Row -->
-			<div class="row">	
-				
 				<!-- pricing -->
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<div class="pricing">
 						<div class="price-head">
 							<span class="price-title">Space Rentals</span>
 							<div class="price">
-								<h3>Php 2588<span class="duration">/ 4 Hours</span></h3>
+								<h3>P2,588<span class="duration">/ 4 Hours</span></h3>
 							</div>
 						</div>
 						<ul class="price-content">
 							<li>
-								<p>Php 3888 : 6 Hours</p>
+								<p>P3,888 : 6 Hours</p>
 							</li>
 							<li>
-								<p>Php 5188 : 8 Hours</p>
+								<p>P5,188 : 8 Hours</p>
 							</li>
 							<li>
-								<p>Php 6488 : 10 Hours</p>
+								<p>P6,488 : 10 Hours</p>
 							</li>
 							<li>
-								<p>Php 7788 : 12 Hours</p>
+								<p>P7,788 : 12 Hours</p>
 							</li>		
-							<li>
-								<p>Rates inclusive of AC and Sound</p>
-							</li>	
+<!-- 							<li> -->
+<!-- 								<p>Rates inclusive of AC and Sound</p> -->
+<!-- 							</li>	 -->
 						</ul>
 						<div class="price-btn">
 							<button class="outline-btn">Book now</button>
@@ -651,12 +663,12 @@
 
 								
 				<!-- pricing -->
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<div class="pricing">
 						<div class="price-head">
 							<span class="price-title">Sexy Tease Dance</span>
 							<div class="price">
-								<h3>188<span class="duration">/Session</span>588<span class="duration">/Mo.</span></h3>							
+								<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
 							</div>
 						</div>
 						<ul class="price-content">
@@ -738,9 +750,9 @@
 								<span>Owner/CEO</span>
 								<span>
     								<div class="team-social">
-    									<a href="#"><i class="fa fa-facebook"></i></a>
-    									<a href="#"><i class="fa fa-instagram"></i></a>
-    									<a href="#"><i class="fa fa-twitter"></i></a>
+    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
+    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
     								</div>
 								</span>
 								
@@ -757,9 +769,9 @@
 								<span>General Manager</span>
 								<span>
     								<div class="team-social">
-    									<a href="#"><i class="fa fa-facebook"></i></a>
-    									<a href="#"><i class="fa fa-instagram"></i></a>
-    									<a href="#"><i class="fa fa-twitter"></i></a>
+    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
+    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
     								</div>
 								</span>								
 								
@@ -776,9 +788,9 @@
 								<span>Marketing Manager</span>
 								<span>
     								<div class="team-social">
-    									<a href="#"><i class="fa fa-facebook"></i></a>
-    									<a href="#"><i class="fa fa-instagram"></i></a>
-    									<a href="#"><i class="fa fa-twitter"></i></a>
+    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
+    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
     								</div>
 								</span>								
 							</div>
@@ -795,9 +807,9 @@
 								<span>Digital Specialist</span>
 								<span>
     								<div class="team-social">
-    									<a href="#"><i class="fa fa-facebook"></i></a>
-    									<a href="#"><i class="fa fa-instagram"></i></a>
-    									<a href="#"><i class="fa fa-twitter"></i></a>
+    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
+    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
     								</div>
 								</span>								
 							</div>

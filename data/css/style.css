@@ -257,6 +257,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
     opacity: 0.8;
+    border-color: white;
+    color: white !important;
+    background: #4c5425;
+    transition: 1.5s;
 }
 
 
@@ -922,19 +926,21 @@ header {
     z-index: 11;
     margin: 15px 0px;
     border-radius: 20px;
+    height: 450px;
+    width: 180px;
 }
 
 .pricing::after {
     content: "";
-    background-color: #45543D;
+    background-color: #637508;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     height: 0%;
     z-index: -1;
-    -webkit-transition: 0.2s height;
-    transition: 0.2s height;
+    -webkit-transition: 0.5s height;
+    transition: 0.5s height;
     border-radius: 20px;
 }
 
@@ -950,14 +956,14 @@ header {
 
 .pricing .price-title {
     display: block;
-    padding: 40px 0px 20px;
+    padding: 10px 0px 20px;
     text-transform: uppercase;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
 .pricing:hover .price-title {
-    color: #4c5425;
+    color: white;
 }
 
 .pricing .price {
@@ -968,11 +974,15 @@ header {
     text-align: center;
     margin: auto;
     border-radius: 50%;
-    border: 2px solid #4c5425;
+    border: 4px solid #4c5425;
+}
+
+.pricing:hover .price {
+    border-color:  white;
 }
 
 .pricing .price h3 {
-  font-size: 42px;
+  font-size: 35px;
   margin: 0px;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
@@ -1003,8 +1013,9 @@ header {
 }
 
 .pricing .price-btn {
-    padding-top: 10px;
-    padding-bottom: 20px;
+	position: absolute;
+	left: 8%;
+	bottom: 5%;
 }
 
 /*------------------------------------*\
@@ -1029,7 +1040,9 @@ header {
     top: 0;
     width: 165px !important;
     height: 165px !important;
-    border-radius: 50%;
+    border-radius: 10% !important;
+	border:3px solid #4f4f4f;
+	
 }
 
 .testimonial h3 {
@@ -1155,10 +1168,24 @@ header {
     line-height: 50px;
     width: 50px;
     text-align: center;
-    background-color: #4c5425;
-    color: #FFF;
+/*     background-color: #4c5425; */
+/*     color: #FFF; */
     border-radius: 30px;
 }
+
+.facebook{
+	background-color: #4267b2 !important;
+}
+
+.instagram{
+	background-color: #800000 !important;
+	background-image: linear-gradient(to bottom, #be3982, #fda149);
+}
+
+.twitter{
+	background-color: #1da1f2 !important;
+}
+
 
 .team:hover .team-social {
     opacity: 1;
