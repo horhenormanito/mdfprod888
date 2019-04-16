@@ -60,31 +60,16 @@
 					</div>
 				</div>
 				<!-- /contact form -->
-			</div>
-			<div class="col-md-2">
-				<h3 class="access-social">Follow Us</h3>
+				
+				
 				<!-- Social Media -->
-				<div class="col">
-					<div class="access-social">
-    					<a href="https://www.facebook.com/mdfprod888/" target="_blank" class="facebook"><i class="fa fa-facebook "></i></a>
-	    			</div>
+				<div class="access-social">
+					<a href="https://www.facebook.com/mdfprod888/" target="_blank" class="facebook"><i class="fa fa-facebook "></i></a>
+					<a href="https://www.instagram.com/mdfprod888/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.twitter.com/mdfprod888/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
     			</div>
-    			<!-- Force next columns to break to new line -->
-  					<div class="w-100"></div>
-					<div class="col">
-						<div class="access-social">
-	    					<a href="https://www.instagram.com/mdfprod888/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
-		    			</div>
-	    			</div>
-	    			<!-- Force next columns to break to new line -->
-  					<div class="w-100"></div>
-	    			<div class="col">
-						<div class="access-social">
-	 						<a href="https://www.twitter.com/mdfprod888/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
-		    			</div>
-	    			</div>
-					<!-- /Social Media -->
-			</div>
+				<!-- /Social Media -->		
+			</div>	
 
 		</div>
 		<!-- /Row -->

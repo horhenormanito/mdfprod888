@@ -1061,13 +1061,13 @@ header {
 .access-social a {
 	position: relative;
     display: inline-block;
-    line-height: 50px;
-    width: 50px;
+    line-height: 35px;
+    width: 35px;
     text-align: center;
     background-color: #637508;
     color: #FFF;
     border-radius: 25px;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 .access-social i{

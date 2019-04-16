@@ -24,6 +24,7 @@
     	      <div class="item core-logo">
     	        <img src="./data/img/calm oneself.jpg" alt="">
     	        <div class="carousel-caption">
+<!--     	        	<div class ="animated-text"><div>CALM</div><span>ONESELF</span> </div> -->
     	        </div><!-- /.carousel-caption -->
     	      </div><!-- /Slide2 -->
     	

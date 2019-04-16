@@ -103,7 +103,7 @@
 
 	<div id="copyright" class="container">
 		<ul class="links">
-			<li>&copy;HORIAN. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<li>&copy;HORIAN. All rights reserved.</li>
 		</ul>
 	</div>
 
