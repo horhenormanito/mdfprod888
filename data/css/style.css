@@ -1,16 +1,4 @@
 /*
-Theme Name:
-Author: yaminncco
-
-Colors:
-	Body 		  : #868F9B
-	Headers 	: #10161A
-	Primary 	: #4c5425
-	Dark      : #FCFCFF
-	Grey 		  : #F4F4F4 #FAFAFA #EEE
-
-Fonts: Montserrat Varela Round
-
 Table OF Contents
 ------------------------------------
 1 > General
@@ -23,7 +11,7 @@ Table OF Contents
 8 >  Why choose us
 9 >  Numbers
 10 > Pricing
-11 > Testimonial
+11 > Team
 12 > Team
 13 > Blog
 14 > Blog post
@@ -1019,14 +1007,14 @@ header {
 }
 
 /*------------------------------------*\
-	Testimonial
+	Team
 \*------------------------------------*/
 
-.testimonial {
+.team {
     margin: 50px 15px 130px 15px;
 }
 
-.testimonial-meta {
+.team-meta {
     position: relative;
     padding-left: 180px;
     height: 70px;
@@ -1034,7 +1022,7 @@ header {
     padding-top: 10px;
 }
 
-.testimonial img {
+.team img {
     position: absolute;
     left: 0;
     top: 0;
@@ -1045,17 +1033,17 @@ header {
 	
 }
 
-.testimonial h3 {
+.team h3 {
     margin-bottom: 5px;
 }
 
-.testimonial span {
+.team span {
     font-size: 14px;
     color: White;
     text-transform: uppercase;
 }
 
-.testimonial .team-social a {
+.team-social a {
     display: inline-block;
     line-height: 25px;
     width: 25px;
@@ -1065,112 +1053,29 @@ header {
     border-radius: 25px;
 }
 
-
-/*------------------------------------*\
-	Team
-\*------------------------------------*/
-
-.team {
-    position: relative;
-    background-color: #F4F4F4;
-    padding: 40px 20px;
-    margin: 15px 0px;
-    border-radius: 20px;
-}
-
-.team::after {
-    content: "";
-    background-color: #45543D;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 0%;
-    z-index: 1;
-    -webkit-transition: 0.2s height;
-    transition: 0.2s height;
-    border-radius: 20px;
-}
-
-.team:hover:after {
-    height: 100%;
-    border-radius: 20px;
-}
-
-.team-img {
-    position: relative;
-    margin-bottom: 20px;
-    z-index: 11;
-    
-}
-
-.team-img>img {
-  width: 100%;
-  border-radius: 20px;
-}
-
-.team .overlay {
-    background: #1C1D21;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-    border-radius: 20px;
-}
-
-.team:hover .overlay {
-    opacity: 0.8;
-}
-
-.team .team-content {
+.access-social{
+	margin: 15px 0px;
     text-align: center;
-    position: relative;
-    z-index: 11;
 }
 
-.team .team-content h3 {
-    margin-bottom: 10px;
-    -webkit-transition: 0.2s color;
-    transition: 0.2s color;
-}
-
-.team .team-content span {
-    font-size: 14px;
-    text-transform: uppercase;
-    -webkit-transition: 0.2s color;
-    transition: 0.2s color;
-}
-
-.team:hover .team-content h3 {
-    color: #FFF;
-}
-
-.team:hover .team-content span {
-    color: #4c5425;
-}
-
-.team .team-social {
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-    border-radius: 30px;
-}
-
-.team .team-social a {
-    display: block;
+.access-social a {
+	position: relative;
+    display: inline-block;
     line-height: 50px;
     width: 50px;
     text-align: center;
-/*     background-color: #4c5425; */
-/*     color: #FFF; */
-    border-radius: 30px;
+    background-color: #637508;
+    color: #FFF;
+    border-radius: 25px;
+    margin: 0 auto 0 auto;
+}
+
+.access-social i{
+    font-size: 20px;
+}
+
+.team:hover .team-social, .access-social {
+    opacity: 1;
 }
 
 .facebook{
@@ -1184,11 +1089,6 @@ header {
 
 .twitter{
 	background-color: #1da1f2 !important;
-}
-
-
-.team:hover .team-social {
-    opacity: 1;
 }
 
 
@@ -1910,4 +1810,30 @@ a:focus {
 	position: absolute;
 	top: 40%;
 	left: 45%;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:450px;
+	width:100%;
+}
+
+.gmap_canvas {
+	border-radius:15px; 
+	overflow:hidden;
+	background:none!important;
+	height:450px;
+	width:100%
+}
+
+#gmap_canvas{
+	position: relative;
+	height: 450px;
+	width: 100%;
+}
+
+.align-center{
+	position: relative;
+	margin: 0 auto 0 auto;
 }

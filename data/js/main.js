@@ -74,7 +74,7 @@
 		animateOut: 'fadeOut'
 	});
 
-	$('#testimonial-slider').owlCarousel({
+	$('#team-slider').owlCarousel({
 		loop:true,
 		margin:15,
 		dots : true,

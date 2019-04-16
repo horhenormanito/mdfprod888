@@ -695,9 +695,6 @@
 	</div>
 	<!-- /Pricing -->
 
-
-	
-
 	<!-- Team -->
 	<div id="team" class="section md-padding">
 
@@ -722,9 +719,8 @@
 	</div>
 	<!-- /Team -->				
 
-
-<!-- Testimonial -->
-	<div id="testimonial" class="section md-padding">
+	<!-- Team -->
+	<div id="team" class="section md-padding">
 
 		<!-- Background Image -->
 		<div class="bg-img" style="background-image: url('./data/img/background3.jpg');">
@@ -738,13 +734,13 @@
 			<!-- Row -->
 			<div class="row">
 
-				<!-- Testimonial slider -->
+				<!-- Team slider -->
 				<div class="col-md-10 col-md-offset-1">
-					<div id="testimonial-slider" class="owl-carousel owl-theme">
+					<div id="team-slider" class="owl-carousel owl-theme">
 					
-						<!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-meta">
+						<!-- team -->
+						<div class="team">
+							<div class="team-meta">
 								<img src="./data/img/Margo.jpg" alt="">
 								<h3 class="white-text">Margarita Domingo Frasco</h3>
 								<span>Owner/CEO</span>
@@ -759,11 +755,11 @@
 							</div>
 <!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 						</div>
-						<!-- /testimonial -->					
+						<!-- /team -->					
 
-						<!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-meta">
+						<!-- team -->
+						<div class="team">
+							<div class="team-meta">
 								<img src="./data/img/Ivy.jpg" alt="">
 								<h3 class="white-text">Ivy Melody Gallur</h3>
 								<span>General Manager</span>
@@ -778,11 +774,11 @@
 							</div>
 <!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 						</div>
-						<!-- /testimonial -->
+						<!-- /team -->
 						
-						<!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-meta">
+						<!-- team -->
+						<div class="team">
+							<div class="team-meta">
 								<img src="./data/img/Manchie.jpg" alt="">
 								<h3 class="white-text">Manchie Maloloy-on</h3>
 								<span>Marketing Manager</span>
@@ -796,18 +792,17 @@
 							</div>
 <!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 						</div>
-						<!-- /testimonial -->
+						<!-- /team -->
 						
-						
-						<!-- testimonial -->
-						<div class="testimonial">
-							<div class="testimonial-meta">
+						<!-- team -->
+						<div class="team">
+							<div class="team-meta">
 								<img src="./data/img/Rufe.jpg" alt="">
 								<h3 class="white-text">Rufie</h3>
 								<span>Digital Specialist</span>
 								<span>
     								<div class="team-social">
-    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
+    									<a href="#" class="facebook"><i class="fa fa-facebook "></i></a>
     									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
     									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
     								</div>
@@ -815,11 +810,11 @@
 							</div>
 <!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 						</div>
-						<!-- /testimonial -->						
+						<!-- /team -->						
 						
 					</div>
 				</div>
-				<!-- /Testimonial slider -->
+				<!-- /Team slider -->
 
 			</div>
 			<!-- /Row -->
@@ -828,96 +823,7 @@
 		<!-- /Container -->
 
 	</div>
-	<!-- /Testimonial -->
-
-
-
-
-
-				<!-- team -->
-<!-- 				<div class="col-sm-3"> -->
-<!-- 					<div class="team"> -->
-<!-- 						<div class="team-img"> -->
-<!-- 							<img class="img-responsive" src="./data/img/Margo.jpg" alt=""> -->
-<!-- 							<div class="overlay"> -->
-<!-- 								<div class="team-social"> -->
-<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
-<!-- 								</div> -->
-<!-- 							</div> -->
-<!-- 						</div> -->
-<!-- 						<div class="team-content"> -->
-<!-- 							<h3>Margarita Frasco</h3> -->
-<!-- 							<span>Owner/CEO</span> -->
-<!-- 						</div> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-				<!-- /team -->
-
-				<!-- team -->
-<!-- 				<div class="col-sm-3"> -->
-<!-- 					<div class="team"> -->
-<!-- 						<div class="team-img"> -->
-<!-- 							<img class="img-responsive" src="./data/img/Ivy.jpg" alt=""> -->
-<!-- 							<div class="overlay"> -->
-<!-- 								<div class="team-social"> -->
-<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
-<!-- 								</div> -->
-<!-- 							</div> -->
-<!-- 						</div> -->
-<!-- 						<div class="team-content"> -->
-<!-- 							<h3>Ivy Melody Gallur</h3> -->
-<!-- 							<span>General Manager</span> -->
-<!-- 						</div> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-				<!-- /team -->
-
-				<!-- team -->
-<!-- 				<div class="col-sm-3"> -->
-<!-- 					<div class="team"> -->
-<!-- 						<div class="team-img"> -->
-<!-- 							<img class="img-responsive" src="./data/img/Manchie.jpg" alt=""> -->
-<!-- 							<div class="overlay"> -->
-<!-- 								<div class="team-social"> -->
-<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
-<!-- 								</div> -->
-<!-- 							</div> -->
-<!-- 						</div> -->
-<!-- 						<div class="team-content"> -->
-<!-- 							<h3>Manchie Maloloyon</h3> -->
-<!-- 							<span>Marketing Manager</span> -->
-<!-- 						</div> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-				<!-- /team -->
-				
-				<!-- team -->
-<!-- 				<div class="col-sm-3"> -->
-<!-- 					<div class="team"> -->
-<!-- 						<div class="team-img"> -->
-<!-- 							<img class="img-responsive" src="./data/img/Rufe.jpg" alt=""> -->
-<!-- 							<div class="overlay"> -->
-<!-- 								<div class="team-social"> -->
-<!-- 									<a href="#"><i class="fa fa-facebook"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-google-plus"></i></a> -->
-<!-- 									<a href="#"><i class="fa fa-twitter"></i></a> -->
-<!-- 								</div> -->
-<!-- 							</div> -->
-<!-- 						</div> -->
-<!-- 						<div class="team-content"> -->
-<!-- 							<h3>Rufie</h3> -->
-<!-- 							<span>Digital Specialist</span> -->
-<!-- 						</div> -->
-<!-- 					</div> -->
-<!-- 				</div> -->
-				<!-- /team -->
-
+	<!-- /Team -->
 
 	<!-- Blog -->
 	<div id="blog" class="section md-padding bg-grey">
@@ -1022,16 +928,15 @@
 					<!-- >div id="map"></div-->
 					<div class="mapouter">
 						<div class="gmap_canvas">
-							<iframe width="550" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=the%20core%20by%20mdf%20productions&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+							<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=the%20core%20by%20mdf%20productions&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
 							</iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
 						</div>
-						<style>.mapouter{position:relative;text-align:right;height:450px;width:550px;}.gmap_canvas {border-radius:15px; overflow:hidden;background:none!important;height:450px;width:550px;}</style>
 					</div>
 				</div>
 				
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<!-- contact -->
-					<div class="col-sm-3">
+					<div class="col align-center">
 						<div class="contact">
 							<i class="fa fa-phone"></i>
 							<p>(+63)967 289 8891</p>
@@ -1040,28 +945,56 @@
 					<!-- /contact -->
 	
 					<!-- contact -->
-					<div class="col-sm-6">
+					<div class="col align-center">
 						<div class="contact">
 							<i class="fa fa-envelope"></i>
-							<p>mdfprod888@gmail.com</p>
+							<p>info@mdfprod888.com</p>
 						</div>
 					</div>
 					<!-- /contact -->
 	
 					<!-- contact -->
-					<div class="col-sm-3">
+					<div class="col align-center">
 						<div class="contact">
 							<i class="fa fa-map-marker"></i>
-							<p>Mandaue City 6014</p>
+							<p>FLC Center, 888 Hernan Cortes St, Mandaue City, 6014 Cebu, Philippines</p>
 						</div>
 					</div>
 					<!-- /contact -->
-	
+					
 					<!-- contact form -->
-						<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
-					    	Open Contact Form
-						</button>
+					<div class="col align-center">
+						<div class="contact">
+							<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
+						    	Contact Us
+							</button>
+						</div>
+					</div>
 					<!-- /contact form -->
+				</div>
+				<div class="col-md-2">
+					<h3 class="access-social">Follow Us</h3>
+					<!-- Social Media -->
+					<div class="col">
+						<div class="access-social">
+	    					<a href="https://www.facebook.com/mdfprod888/" target="_blank" class="facebook"><i class="fa fa-facebook "></i></a>
+		    			</div>
+	    			</div>
+	    			<!-- Force next columns to break to new line -->
+  					<div class="w-100"></div>
+					<div class="col">
+						<div class="access-social">
+	    					<a href="https://www.instagram.com/mdfprod888/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+		    			</div>
+	    			</div>
+	    			<!-- Force next columns to break to new line -->
+  					<div class="w-100"></div>
+	    			<div class="col">
+						<div class="access-social">
+	 						<a href="https://www.twitter.com/mdfprod888/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+		    			</div>
+	    			</div>
+					<!-- /Social Media -->
 				</div>
 
 			</div>
