@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
-require_once('../ci/application/helpers/MailHelper.php');
+require_once('../mdfprod888/application/helpers/MailHelper.php');
 
 class MdfProdMailController extends CI_Controller {
 
@@ -24,9 +24,31 @@ class MdfProdMailController extends CI_Controller {
 	 */
 	public function doMail()
 	{
-		$this->load->library('email');
-		$mailAddrFrom = $this->input->post('u_email');
-		MailHelper::sendMail($this, $mailAddrFrom, $mailAddrFrom);
-		$this->load->view('mdf_prod_index');
+		if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['message'])){
+			
+			// Submitted form data
+			$name   = $_POST['name'];
+			$email  = $_POST['email'];
+			$message= $_POST['message'];
+			
+			/*
+			 * Send email to admin
+			 */
+			$to     = 'info@mdfprod888.com';
+			$subject= 'Contact Request Submitted';
+			
+			$data = array();
+			
+			// Send email
+			$this->load->library('email');
+			if(MailHelper::sendMail($this, $to, $to)){
+				$data['status'] = 'OK';
+			}else{
+				$data['status'] = 'ERR';
+			}
+			
+			// Output status
+			echo json_encode($data);
+		}
 	}
 }

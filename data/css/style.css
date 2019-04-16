@@ -1905,3 +1905,9 @@ a:focus {
 	margin : 0 auto 0 auto;
 	max-height: 100%;
 }
+
+#contact-form-loader{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}

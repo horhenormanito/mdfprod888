@@ -4,8 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class MailHelper{
 	
 	public static function sendMail($mail, $mailFrom, $mailTo){
-		$SUBJECT = "Inquiry from www.mdfprod888.com";
-		$message = '<p>This message has been sent for testing purposes.</p>';
+		
+		$SUBJECT = "From MDF Productions: Contact Request has been submitted.";
+		// Submitted form data
+		$name   = $_POST['name'];
+		$email  = $_POST['email'];
+		$message= $_POST['message'];
 		
 		// Get full html:
 		$body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -21,7 +25,18 @@ class MailHelper{
 				    </style>
 				</head>
 				<body>
-				' . $message . '
+					<h4>Contact request has been submitted to MDF Productions, details are given below.</h4>
+				    <table cellspacing="0" style="width: 300px; height: 200px;">
+				        <tr>
+				            <th>Name:</th><td>'.$name.'</td>
+				        </tr>
+				        <tr style="background-color: #e0e0e0;">
+				            <th>Email:</th><td>'.$email.'</td>
+				        </tr>
+				        <tr>
+				            <th>Message:</th><td>'.$message.'</td>
+				        </tr>
+				    </table>
 				</body>
 				</html>';
 		// Also, for getting full html you may use the following internal method:
@@ -34,9 +49,7 @@ class MailHelper{
 		->message($body)
 		->send();
 		
-		var_dump($result);
-		echo '<br />';
-		echo $mail->email->print_debugger();
+		return $result;
 	}
 }
 

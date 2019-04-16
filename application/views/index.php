@@ -1008,7 +1008,7 @@
 
 		<!-- Container -->
 		<div class="container">
-
+		
 			<!-- Row -->
 			<div class="row">
 				
@@ -1058,26 +1058,63 @@
 					<!-- /contact -->
 	
 					<!-- contact form -->
-					<div class="col-md-12">
-						<form class="contact-form">
-							<input type="text" class="input" placeholder="Name">
-							<input type="email" class="input" placeholder="Email">
-							<input type="text" class="input" placeholder="Subject">
-							<textarea class="input" placeholder="Message"></textarea>
-							<button class="main-btn">Send message</button>
-						</form>
-					</div>
+						<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
+					    	Open Contact Form
+						</button>
 					<!-- /contact form -->
 				</div>
 
 			</div>
 			<!-- /Row -->
-
 		</div>
 		<!-- /Container -->
 
 	</div>
 	<!-- /Contact -->
+	
+	<!-- Contact Form Modal -->
+	<div class="modal fade" id="modalForm" role="dialog">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <!-- Modal Header -->
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal">
+	                    <span aria-hidden="true">&times;</span>
+	                    <span class="sr-only">Close</span>
+	                </button>
+	                <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
+	            </div>
+	            
+	            <img src="./data/img/loader/contact-form-loader.gif" id="contact-form-loader" style="display:none" />
+	            
+	            <!-- Modal Body -->
+	            <div class="modal-body">
+	                <p class="statusMsg"></p>
+	                <form role="form">
+	                    <div class="form-group">
+	                        <label for="inputName">Name</label>
+	                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/>
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="inputEmail">Email</label>
+	                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"/>
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="inputMessage">Message</label>
+	                        <textarea class="form-control" id="inputMessage" placeholder="Enter your message"></textarea>
+	                    </div>
+	                </form>
+	            </div>
+	            
+	            <!-- Modal Footer -->
+	            <div class="modal-footer">
+	                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                <button type="button" class="btn btn-primary submitBtn" onclick="submitContactForm('<?=base_url()?>index.php/MdfProdMailController/doMail')">SUBMIT</button>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<!-- /Contact Form Modal -->
 
 
 	<div id="copyright" class="container">
@@ -1115,6 +1152,7 @@
 	<script type="text/javascript" src="data/js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="data/js/particles.js"></script>
 	<script type="text/javascript" src="data/js/main.js"></script>
+	<script type="text/javascript" src="data/js/form.js"></script>
 
 </body>
 
