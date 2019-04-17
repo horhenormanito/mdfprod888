@@ -704,7 +704,7 @@ header {
     padding: 20px;
 }
 
-.work>img {
+.work img {
   width: 100%;
   border-radius: 20px;
 }
@@ -1836,4 +1836,12 @@ a:focus {
 .align-center{
 	position: relative;
 	margin: 0 auto 0 auto;
+}
+
+.gallery-item img{
+	position: relative;
+	margin: 0 auto 0 auto;
+	max-height:60% !important; 
+	max-width:60% !important;
+	border-radius: 10px;
 }

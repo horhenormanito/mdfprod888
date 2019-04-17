@@ -14,100 +14,80 @@
 			<!-- /Section header -->
 
 			<!-- Work -->
-			<div class="col-md-4 col-xs-6 work">
-				<img class="img-responsive" src="./data/img/karate.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="work-content">
-					<span>Category</span>
-					<h3>KARATE</h3>
-					<div class="work-link">
-						<a href="#"><i class="fa fa-external-link"></i></a>
-						<a class="lightbox" href="./data/img/karate.jpg"><i class="fa fa-search"></i></a>
+			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-karate">
+				<a href="#gallery-karate" data-slide-to="0">
+					<img class="img-responsive" src="./data/img/karate.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>KARATE</h3>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!-- /Work -->
 
 			<!-- Work -->
-			<div class="col-md-4 col-xs-6 work">
-				<img class="img-responsive" src="./data/img/musical.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="work-content">
-					<span>Category</span>
-					<h3>MUSICAL</h3>
-					<div class="work-link">
-						<a href="#"><i class="fa fa-external-link"></i></a>
-						<a class="lightbox" href="./data/img/musical1.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/musical2.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/musical3.jpg"><i class="fa fa-search"></i></a>
+			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-musical">
+				<a href="#gallery-musical" data-slide-to="1">
+					<img class="img-responsive" src="./data/img/musical.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>MUSICAL</h3>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!-- /Work -->
 
 			<!-- Work -->
-			<div class="col-md-4 col-xs-6 work">
-				<img class="img-responsive" src="./data/img/dance.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="work-content">
-					<span>Category</span>
-					<h3>DANCE</h3>
-					<div class="work-link">
-						<a href="#"><i class="fa fa-external-link"></i></a>
-						<a class="lightbox" href="./data/img/dance1.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/dance2.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/dance3.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/dance4.jpg"><i class="fa fa-search"></i></a>
+			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-dance">
+				<a href="#gallery-dance" data-slide-to="2">
+					<img class="img-responsive" src="./data/img/dance.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>DANCE</h3>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!-- /Work -->
 
 			<!-- Work -->
-			<div class="col-md-4 col-xs-6 work">
-				<img class="img-responsive" src="./data/img/workshop.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="work-content">
-					<span>Category</span>
-					<h3>WORKSHOP</h3>
-					<div class="work-link">
-						<a href="#"><i class="fa fa-external-link"></i></a>
-						<a class="lightbox" href="./data/img/workshop.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/workshop1.jpg"><i class="fa fa-search"></i></a>
+			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-workshop">
+				<a href="#gallery-workshop" data-slide-to="3">
+					<img class="img-responsive" src="./data/img/workshop.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>WORKSHOP</h3>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!-- /Work -->
 
 			<!-- Work -->
-			<div class="col-md-4 col-xs-6 work">
-				<img class="img-responsive" src="./data/img/gathering.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="work-content">
-					<span>Category</span>
-					<h3>GATHERING</h3>
-					<div class="work-link">
-						<a href="#"><i class="fa fa-external-link"></i></a>
-						<a class="lightbox" href="./data/img/gathering.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/gathering1.jpg"><i class="fa fa-search"></i></a>
+			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-gathering">
+				<a href="#gallery-gathering" data-slide-to="4">
+					<img class="img-responsive" src="./data/img/gathering.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>GATHERING</h3>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!-- /Work -->
 
 			<!-- Work -->
-			<div class="col-md-4 col-xs-6 work">
-				<img class="img-responsive" src="./data/img/celebration.jpg" alt="">
-				<div class="overlay"></div>
-				<div class="work-content">
-					<span>Category</span>
-					<h3>CELEBRATION</h3>
-					<div class="work-link">
-						<a href="#"><i class="fa fa-external-link"></i></a>
-						<a class="lightbox" href="./data/img/celebration.jpg"><i class="fa fa-search"></i></a>
-						<a class="lightbox" href="./data/img/celebration1.jpg"><i class="fa fa-search"></i></a>
+			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-celebration">
+				<a href="#gallery-celebration" data-slide-to="5">
+					<img class="img-responsive" src="./data/img/celebration.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>CELEBRATION</h3>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!-- /Work -->
 
@@ -119,6 +99,259 @@
 
 </div>
 <!-- /Portfolio -->
+
+<!-- Gallery:Musical Modal -->
+<!--begin modal window-->
+<div class="modal fade" id="modal-karate">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="pull-left">Karate</div>
+				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+			</div>
+			<div class="modal-body">
+				<!--Karate-->
+				<div id="gallery-karate" class="carousel slide" data-interval="false">
+					<div class="carousel-inner gallery-item">
+						<div class="item active"> <img src="./data/img/karate.jpg" alt="item0">
+							<div class="carousel-caption">
+								<h3>KARATE</h3>
+								<p>Description here....</p>
+							</div>
+						</div>
+					</div>
+					<!--Begin Previous and Next buttons-->
+					<a class="left carousel-control" href="#gallery-karate" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
+					<a class="right carousel-control" href="#gallery-karate" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			
+			<div class="modal-footer">
+				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Gallery:Karate Modal -->
+
+<!-- Gallery:Musical Modal -->
+<!--begin modal window-->
+<div class="modal fade" id="modal-musical">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="pull-left">Musical</div>
+				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+			</div>
+			<div class="modal-body">
+				<!--Musical-->
+				<div id="gallery-musical" class="carousel slide" data-interval="false">
+					<div class="carousel-inner gallery-item">
+						<div class="item active"> <img src="./data/img/musical1.jpg" alt="item0">
+							<div class="carousel-caption">
+								<h3>MUSICAL</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/musical2.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>MUSICAL</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/musical3.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>MUSICAL</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+					</div>
+					<!--Begin Previous and Next buttons-->
+					<a class="left carousel-control" href="#gallery-musical" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
+					<a class="right carousel-control" href="#gallery-musical" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			
+			<div class="modal-footer">
+				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Gallery:Musical Modal -->
+
+<!-- Gallery:Dance Modal -->
+<!--begin modal window-->
+<div class="modal fade" id="modal-dance">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="pull-left">Dance</div>
+				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+			</div>
+			<div class="modal-body">
+				<!--Dance-->
+				<div id="gallery-dance" class="carousel slide" data-interval="false">
+					<div class="carousel-inner gallery-item">
+						<div class="item active"> <img src="./data/img/dance1.jpg" alt="item0">
+							<div class="carousel-caption">
+								<h3>DANCE</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/dance2.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>DANCE</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/dance3.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>DANCE</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/dance4.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>DANCE</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+					</div>
+					<!--Begin Previous and Next buttons-->
+					<a class="left carousel-control" href="#gallery-dance" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
+					<a class="right carousel-control" href="#gallery-dance" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			
+			<div class="modal-footer">
+				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Gallery:Dance Modal -->
+
+<!-- Gallery:Workshop Modal -->
+<!--begin modal window-->
+<div class="modal fade" id="modal-workshop">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="pull-left">Workshop</div>
+				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+			</div>
+			<div class="modal-body">
+				<!--Workshop-->
+				<div id="gallery-workshop" class="carousel slide" data-interval="false">
+					<div class="carousel-inner gallery-item">
+						<div class="item active"> <img src="./data/img/workshop.jpg" alt="item0">
+							<div class="carousel-caption">
+								<h3>WORKSHOP</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/workshop1.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>WORKSHOP</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+					</div>
+					<!--Begin Previous and Next buttons-->
+					<a class="left carousel-control" href="#gallery-workshop" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
+					<a class="right carousel-control" href="#gallery-workshop" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			
+			<div class="modal-footer">
+				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Gallery:Workshop Modal -->
+
+<!-- Gallery:Gathering Modal -->
+<!--begin modal window-->
+<div class="modal fade" id="modal-gathering">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="pull-left">Gathering</div>
+				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+			</div>
+			<div class="modal-body">
+				<!--Gathering-->
+				<div id="gallery-gathering" class="carousel slide" data-interval="false">
+					<div class="carousel-inner gallery-item">
+						<div class="item active"> <img src="./data/img/gathering.jpg" alt="item0">
+							<div class="carousel-caption">
+								<h3>GATHERING</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/gathering1.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>GATHERING</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+					</div>
+					<!--Begin Previous and Next buttons-->
+					<a class="left carousel-control" href="#gallery-gathering" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
+					<a class="right carousel-control" href="#gallery-gathering" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			
+			<div class="modal-footer">
+				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Gallery:Gathering Modal -->
+
+<!-- Gallery:Celebration Modal -->
+<!--begin modal window-->
+<div class="modal fade" id="modal-celebration">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="pull-left">Celebration</div>
+				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+			</div>
+			<div class="modal-body">
+				<!--Celebration-->
+				<div id="gallery-celebration" class="carousel slide" data-interval="false">
+					<div class="carousel-inner gallery-item">
+						<div class="item active"> <img src="./data/img/celebration.jpg" alt="item0">
+							<div class="carousel-caption">
+								<h3>CELEBRATION</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/celebration1.jpg" alt="item1">
+							<div class="carousel-caption">
+								<h3>CELEBRATION</h3>
+								<p>Description here...</p>
+							</div>
+						</div>
+					</div>
+					<!--Begin Previous and Next buttons-->
+					<a class="left carousel-control" href="#gallery-celebration" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
+					<a class="right carousel-control" href="#gallery-celebration" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+			
+			<div class="modal-footer">
+				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Gallery:Celebration Modal -->
+
 
 <!-- Why Choose Us -->
 <div id="features" class="section md-padding bg-grey">
