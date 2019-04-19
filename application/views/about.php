@@ -26,7 +26,7 @@
 				<img class="img-responsive" src="./data/img/bose.jpg" alt="" style="margin-bottom: 10px;">
 					<h3>State-of-the-art Equipment</h3>
 					<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHighest quality Bose sound system, fully soundproofed interior, sprung wood dance floor and mirror walls for the best experience. </p>
-					<a href="core-about.html">Read more</a>
+<!-- 					<a href="core-about.html">Read more</a> -->
 				</div>
 			</div>
 			<!-- /about -->
@@ -37,7 +37,7 @@
 				<img class="img-responsive" src="./data/img/savings.jpg" alt="" style="margin-bottom: 10px;"> 
 					<h3>Very Affordable Rates</h3>
 					<p>Enjoy the best the industry has to offer at the most affordable price in the market.</p>
-					<a href="#">Read more</a>
+<!-- 					<a href="#">Read more</a> -->
 				</div>
 			</div>
 			<!-- /about -->
@@ -48,7 +48,7 @@
 				<img class="img-responsive" src="./data/img/best team.jpg" alt="" style="margin-bottom: 10px;">
 					<h3>The Most Awesome Teams</h3>
 					<p>Work with the most talented and awesome teams who share your passion and help bring out the best version of yourself. </p>
-					<a href="#">Read more</a>
+<!-- 					<a href="#">Read more</a> -->
 				</div>
 			</div>
 			<!-- /about -->

@@ -19,7 +19,7 @@
 					<img class="img-responsive" src="./data/img/karate.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Category</span>
+<!-- 						<span>Category</span> -->
 						<h3>KARATE</h3>
 					</div>
 				</a>
@@ -32,7 +32,7 @@
 					<img class="img-responsive" src="./data/img/musical.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Category</span>
+<!-- 						<span>Category</span> -->
 						<h3>MUSICAL</h3>
 					</div>
 				</a>
@@ -45,7 +45,7 @@
 					<img class="img-responsive" src="./data/img/dance.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Category</span>
+<!-- 						<span>Category</span> -->
 						<h3>DANCE</h3>
 					</div>
 				</a>
@@ -58,7 +58,7 @@
 					<img class="img-responsive" src="./data/img/workshop.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Category</span>
+<!-- 						<span>Category</span> -->
 						<h3>WORKSHOP</h3>
 					</div>
 				</a>
@@ -71,7 +71,7 @@
 					<img class="img-responsive" src="./data/img/gathering.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Category</span>
+<!-- 						<span>Category</span> -->
 						<h3>GATHERING</h3>
 					</div>
 				</a>
@@ -84,7 +84,7 @@
 					<img class="img-responsive" src="./data/img/celebration.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Category</span>
+<!-- 						<span>Category</span> -->
 						<h3>CELEBRATION</h3>
 					</div>
 				</a>
@@ -106,19 +106,25 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left">Karate</div>
+				<div class="pull-left white-text">Karate</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
 				<!--Karate-->
 				<div id="gallery-karate" class="carousel slide" data-interval="false">
 					<div class="carousel-inner gallery-item">
-						<div class="item active"> <img src="./data/img/karate.jpg" alt="item0">
+						<div class="item active"> <img src="./data/img/karate1.jpg" alt="item0">
 							<div class="carousel-caption">
-								<h3>KARATE</h3>
-								<p>Description here....</p>
 							</div>
 						</div>
+						<div class="item"> <img src="./data/img/karate2.jpg" alt="item0">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/karate3.jpg" alt="item0">
+							<div class="carousel-caption">
+							</div>
+						</div>						
 					</div>
 					<!--Begin Previous and Next buttons-->
 					<a class="left carousel-control" href="#gallery-karate" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
@@ -127,7 +133,7 @@
 			</div>
 			
 			<div class="modal-footer">
-				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+				<button class="btn-sm close" type="button" data-dismiss="modal">CLOSE</button>
 			</div>
 		</div>
 	</div>
@@ -140,7 +146,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left">Musical</div>
+				<div class="pull-left white-text">Musical</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
@@ -149,22 +155,21 @@
 					<div class="carousel-inner gallery-item">
 						<div class="item active"> <img src="./data/img/musical1.jpg" alt="item0">
 							<div class="carousel-caption">
-								<h3>MUSICAL</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
 						<div class="item"> <img src="./data/img/musical2.jpg" alt="item1">
 							<div class="carousel-caption">
-								<h3>MUSICAL</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/musical3.jpg" alt="item1">
+						<div class="item"> <img src="./data/img/musical3.jpg" alt="item2">
 							<div class="carousel-caption">
-								<h3>MUSICAL</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
+						
+						<div class="item"> <img src="./data/img/musical3.jpg" alt="item3">
+							<div class="carousel-caption">
+							</div>
+						</div>						
 					</div>
 					<!--Begin Previous and Next buttons-->
 					<a class="left carousel-control" href="#gallery-musical" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
@@ -173,7 +178,7 @@
 			</div>
 			
 			<div class="modal-footer">
-				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+				<button class="btn-sm close" type="button" data-dismiss="modal">CLOSE</button>
 			</div>
 		</div>
 	</div>
@@ -186,7 +191,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left">Dance</div>
+				<div class="pull-left white-text">Dance</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
@@ -195,28 +200,24 @@
 					<div class="carousel-inner gallery-item">
 						<div class="item active"> <img src="./data/img/dance1.jpg" alt="item0">
 							<div class="carousel-caption">
-								<h3>DANCE</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
 						<div class="item"> <img src="./data/img/dance2.jpg" alt="item1">
 							<div class="carousel-caption">
-								<h3>DANCE</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/dance3.jpg" alt="item1">
+						<div class="item"> <img src="./data/img/dance3.jpg" alt="item2">
 							<div class="carousel-caption">
-								<h3>DANCE</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/dance4.jpg" alt="item1">
+						<div class="item"> <img src="./data/img/dance4.jpg" alt="item3">
 							<div class="carousel-caption">
-								<h3>DANCE</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
+						<div class="item"> <img src="./data/img/dance5.jpg" alt="item4">
+							<div class="carousel-caption">
+							</div>
+						</div>						
 					</div>
 					<!--Begin Previous and Next buttons-->
 					<a class="left carousel-control" href="#gallery-dance" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
@@ -225,7 +226,7 @@
 			</div>
 			
 			<div class="modal-footer">
-				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+				<button class="btn-sm close" type="button" data-dismiss="modal">CLOSE</button>
 			</div>
 		</div>
 	</div>
@@ -238,23 +239,19 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left">Workshop</div>
+				<div class="pull-left white-text">Workshop</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
 				<!--Workshop-->
 				<div id="gallery-workshop" class="carousel slide" data-interval="false">
 					<div class="carousel-inner gallery-item">
-						<div class="item active"> <img src="./data/img/workshop.jpg" alt="item0">
+						<div class="item active"> <img src="./data/img/workshop1.jpg" alt="item0">
 							<div class="carousel-caption">
-								<h3>WORKSHOP</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/workshop1.jpg" alt="item1">
+						<div class="item"> <img src="./data/img/workshop2.jpg" alt="item1">
 							<div class="carousel-caption">
-								<h3>WORKSHOP</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
 					</div>
@@ -265,7 +262,7 @@
 			</div>
 			
 			<div class="modal-footer">
-				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+				<button class="btn-sm close" type="button" data-dismiss="modal">CLOSE</button>
 			</div>
 		</div>
 	</div>
@@ -278,23 +275,19 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left">Gathering</div>
+				<div class="pull-left white-text">Gathering</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
 				<!--Gathering-->
 				<div id="gallery-gathering" class="carousel slide" data-interval="false">
 					<div class="carousel-inner gallery-item">
-						<div class="item active"> <img src="./data/img/gathering.jpg" alt="item0">
+						<div class="item active"> <img src="./data/img/gathering1.jpg" alt="item0">
 							<div class="carousel-caption">
-								<h3>GATHERING</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/gathering1.jpg" alt="item1">
+						<div class="item"> <img src="./data/img/gathering2.jpg" alt="item1">
 							<div class="carousel-caption">
-								<h3>GATHERING</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
 					</div>
@@ -305,7 +298,7 @@
 			</div>
 			
 			<div class="modal-footer">
-				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+				<button class="btn-sm close" type="button" data-dismiss="modal">CLOSE</button>
 			</div>
 		</div>
 	</div>
@@ -318,25 +311,25 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left">Celebration</div>
+				<div class="pull-left white-text">Celebration</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
 				<!--Celebration-->
 				<div id="gallery-celebration" class="carousel slide" data-interval="false">
 					<div class="carousel-inner gallery-item">
-						<div class="item active"> <img src="./data/img/celebration.jpg" alt="item0">
+						<div class="item active"> <img src="./data/img/celebration1.jpg" alt="item0">
 							<div class="carousel-caption">
-								<h3>CELEBRATION</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/celebration1.jpg" alt="item1">
+						<div class="item"> <img src="./data/img/celebration2.jpg" alt="item1">
 							<div class="carousel-caption">
-								<h3>CELEBRATION</h3>
-								<p>Description here...</p>
 							</div>
 						</div>
+						<div class="item"> <img src="./data/img/celebration3.jpg" alt="item2">
+							<div class="carousel-caption">
+							</div>
+						</div>						
 					</div>
 					<!--Begin Previous and Next buttons-->
 					<a class="left carousel-control" href="#gallery-celebration" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
@@ -345,7 +338,7 @@
 			</div>
 			
 			<div class="modal-footer">
-				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+				<button class="btn-sm close" type="button" data-dismiss="modal">CLOSE</button>
 			</div>
 		</div>
 	</div>
@@ -363,40 +356,46 @@
 		<div class="row">
 
 			<!-- why choose us content -->
-			<div class="col-md-6">
-				<div class="section-header">
-					<h2 class="title">Featured Video</h2>
+			<div class="col-md-6 feature-title">
+				<div class="section-header feature-title">
+					<h2 >Featured Video</h2>
 				</div>
-				<p>Be part of The Core Dance Group...</p>
-				<div class="feature">
-					<i class="fa fa-check"></i>
-					<p>Express Yourself At The Core.</p>
-				</div>
-				<div class="feature">
-					<i class="fa fa-check"></i>
-					<p>Be Part Of Us.</p>
-				</div>
-				<div class="feature">
-					<i class="fa fa-check"></i>
-					<p>Aspire to Inspire at The Core!</p>
-				</div>
-				<div class="feature">
-					<i class="fa fa-check"></i>
-					<p>Release Yourself And See You.</p>
+				<div class="feature-container">
+    				<div style="text-align: left;">
+    					<div class="feature">
+        					<p>Be part of The Core Dance Group...</p>
+        				</div>
+        				<div class="feature">
+        					<i class="fa fa-check"></i>
+        					<p>Express Yourself At The Core.</p>
+        				</div>
+        				<div class="feature">
+        					<i class="fa fa-check"></i>
+        					<p>Be Part Of Us.</p>
+        				</div>
+        				<div class="feature">
+        					<i class="fa fa-check"></i>
+        					<p>Aspire to Inspire at The Core!</p>
+        				</div>
+        				<div class="feature">
+        					<i class="fa fa-check"></i>
+        					<p>Release Yourself And See You.</p>
+        				</div>
+        			</div>
 				</div>
 			</div>
 			<!-- /why choose us content -->
 
-			<!-- About slider -->
-			<div class="col-md-6">
-				<div id="about-slider" class="owl-carousel owl-theme">
-					<img class="img-responsive" src="./data/img/about1.jpg" alt="">
-					<img class="img-responsive" src="./data/img/about2.jpg" alt="">
-					<img class="img-responsive" src="./data/img/about1.jpg" alt="">
-					<img class="img-responsive" src="./data/img/about2.jpg" alt="">
-				</div>
-			</div>
-			<!-- /About slider -->
+			<!-- About featured video -->							
+            <div id="fb-root"></div>
+            <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+            <div class="fb-video"
+                data-href="https://www.facebook.com/mdfprod888/videos/314997175853455/"
+                data-width="500"
+                data-allowfullscreen="true">
+            </div>   
+                    					
+			<!-- About featured video -->
 
 		</div>
 		<!-- /Row -->

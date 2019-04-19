@@ -647,6 +647,7 @@ header {
     border: 1px solid #EEE;
     margin: 15px 0px;
     border-radius: 20px;
+    height: 600px;
 }
 
 .about i {
@@ -668,7 +669,7 @@ header {
 
 .about:after {
     content: "";
-    background-color: #45543D;
+    background-color: #4c5425;
     position: absolute;
     left: 0;
     top: 0;
@@ -710,7 +711,7 @@ header {
 }
 
 .work .overlay {
-    background: #45543D;
+    background: black;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -719,9 +720,9 @@ header {
     opacity: 0;
     border-radius: 25px; 
     -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
+    transition: 2s opacity;
     -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
+    transition-delay: .5s;
 }
 
 .work:hover .overlay {
@@ -869,9 +870,30 @@ header {
 	Why choose us
 \*------------------------------------*/
 
+#features {
+	padding: 10px 0 30px 0;
+}
+
+.feature-title{
+	text-align: center !important;
+}
+
+.feature-container{
+	width: 248px;
+	display: inline-block;
+}
+
+
+
 .feature {
     margin: 15px 0px;
 }
+
+.feature .section-header{
+    margin: 0px 50px !important;
+}
+
+
 .feature i {
     float: left;
     padding: 5px;
@@ -1841,7 +1863,28 @@ a:focus {
 .gallery-item img{
 	position: relative;
 	margin: 0 auto 0 auto;
-	max-height:60% !important; 
-	max-width:60% !important;
 	border-radius: 10px;
+	width: 100%;	
+}
+
+.close:focus, .close:hover{
+	opacity: 0.4 !important;
+}
+
+.close{
+	color:white !important;
+	font-size: 14px !important;
+}
+
+div[id^="modal-"] .modal-dialog{
+	width: 1000px!important;
+}
+
+div[id^="modal-"] .modal-content{
+	background-color: #3e3e3e!important;	
+}
+
+.fb-video iframe{
+	border-radius: 20px !important;
+	margin: 10px auto 0 auto;
 }
