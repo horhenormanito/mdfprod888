@@ -952,6 +952,7 @@ header {
     -webkit-transition: 0.5s height;
     transition: 0.5s height;
     border-radius: 20px;
+    
 }
 
 .pricing:hover:after {
@@ -972,7 +973,7 @@ header {
     transition: 0.2s color;
 }
 
-.pricing:hover .price-title {
+.pricing:hover .price-title, .pricing:hover .price-content{
     color: white;
 }
 
@@ -1026,6 +1027,15 @@ header {
 	position: absolute;
 	left: 8%;
 	bottom: 5%;
+}
+
+.pricing:hover .outline-btn {
+    opacity: 0.8;
+    border-color: white;
+    color: white !important;
+    background: #4c5425;
+    transition: 1.5s;
+    z-index: 99999;
 }
 
 /*------------------------------------*\
@@ -1864,7 +1874,7 @@ a:focus {
 	position: relative;
 	margin: 0 auto 0 auto;
 	border-radius: 10px;
-	width: 100%;	
+	width: 100%;
 }
 
 .close:focus, .close:hover{
@@ -1876,13 +1886,14 @@ a:focus {
 	font-size: 14px !important;
 }
 
-div[id^="modal-"] .modal-dialog{
-	width: 1000px!important;
-}
-
-div[id^="modal-"] .modal-content{
+div[id*="modal-"] .modal-content{
 	background-color: #3e3e3e!important;	
 }
+
+/* .modal-dialog{ */
+/* 	max-width: 100% !important; */
+/* 	width:auto; */
+/* } */
 
 .fb-video iframe{
 	border-radius: 20px !important;
