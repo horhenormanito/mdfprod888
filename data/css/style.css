@@ -288,6 +288,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     #nav.nav-transparent .navbar-brand .logo {
         display: block !important;
+        height: 140%;
     }
 }
 
@@ -465,6 +466,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         -webkit-transition: 0.2s all;
         transition: 0.2s all;
     }
+    
+    .main-nav img{
+    	max-width: 40px !important;
+    	margin-right: 5px;
+    }
     #nav.open .main-nav {
         -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);
@@ -595,7 +601,7 @@ header {
 }
 
 .home-wrapper{
-	height: 60vh;
+	min-height: 100%;
 	margin-bottom: 1em;
 }
 
@@ -634,6 +640,10 @@ header {
 
 .breadcrumb>li+li:before {
     color: #868F9B;
+}
+
+.main-slider{
+	min-height: 100%;
 }
 
 /*------------------------------------*\
@@ -952,7 +962,6 @@ header {
     -webkit-transition: 0.5s height;
     transition: 0.5s height;
     border-radius: 20px;
-    
 }
 
 .pricing:hover:after {
@@ -1025,7 +1034,7 @@ header {
 
 .pricing .price-btn {
 	position: absolute;
-	left: 8%;
+	width: 100%;
 	bottom: 5%;
 }
 
@@ -1036,6 +1045,14 @@ header {
     background: #4c5425;
     transition: 1.5s;
     z-index: 99999;
+}
+
+.service-area{
+	width: 180px !important;
+	height: 450px !important;
+	position: relative;
+	margin: 0 auto 0 auto;
+	
 }
 
 /*------------------------------------*\
@@ -1831,17 +1848,20 @@ a:focus {
 }
 /* Core logo */
 .core-logo{
+	min-height: 100% !important;
 }
 .core-logo img{
 	display: block;
 	margin : 0 auto 0 auto;
-	max-height: 100%;
+	min-height: 100%;
 }
 
 #contact-form-loader{
+	width: 80px;
+  	height: auto;
 	position: absolute;
-	top: 40%;
-	left: 45%;
+	top: 35%;
+	left: 43%;
 }
 
 .mapouter{
@@ -1898,4 +1918,19 @@ div[id*="modal-"] .modal-content{
 .fb-video iframe{
 	border-radius: 20px !important;
 	margin: 10px auto 0 auto;
+}
+
+.core-fb-page{
+	position: relative !important;
+	margin: 0 auto 20px auto !important;
+	width: 340px;
+}
+
+.fb_dialog{
+	right: 60pt !important;
+	bottom: 12pt !important;
+}
+
+.error-msg{
+	color: red;
 }

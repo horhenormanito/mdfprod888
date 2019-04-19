@@ -89,7 +89,7 @@
                     <span aria-hidden="true">&times;</span>
                     <span class="sr-only">Close</span>
                 </button>
-                <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
+                <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
             </div>
             
             <img src="./data/img/loader/contact-form-loader.gif" id="contact-form-loader" style="display:none" />
@@ -101,14 +101,17 @@
                     <div class="form-group">
                         <label for="inputName">Name</label>
                         <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/>
+                        <p class="error-msg"></p>
                     </div>
                     <div class="form-group">
                         <label for="inputEmail">Email</label>
                         <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"/>
+                        <p class="error-msg"></p>
                     </div>
                     <div class="form-group">
                         <label for="inputMessage">Message</label>
                         <textarea class="form-control" id="inputMessage" placeholder="Enter your message"></textarea>
+                        <p class="error-msg"></p>
                     </div>
                 </form>
             </div>

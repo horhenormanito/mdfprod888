@@ -29,11 +29,7 @@
 				<li><a href="#portfolio"><img src="data/img/icons/gallery.png">Gallery</a></li>
 				<li><a href="#service"><img src="data/img/icons/services.png">Services</a></li>
 				<li><a href="#team"><img src="data/img/icons/our team.png">Team</a></li>
-				<li class="has-dropdown"><a href="#blog"><img src="data/img/icons/whats up.png"/>News</a>
-					<ul class="dropdown">
-						<li><a href="blog-single.html">blog post</a></li>
-					</ul>
-				</li>
+				<li><a href="#blog"><img src="data/img/icons/whats up.png"/>News</a></li>
 				<li><a href="#contact"><img src="data/img/icons/contact us.png">Contact</a></li>
 			</ul>
 			<!-- /Main navigation -->

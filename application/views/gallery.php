@@ -19,7 +19,6 @@
 					<img class="img-responsive" src="./data/img/karate.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-<!-- 						<span>Category</span> -->
 						<h3>KARATE</h3>
 					</div>
 				</a>
@@ -32,7 +31,6 @@
 					<img class="img-responsive" src="./data/img/musical.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-<!-- 						<span>Category</span> -->
 						<h3>MUSICAL</h3>
 					</div>
 				</a>
@@ -41,11 +39,10 @@
 
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-dance">
-				<a href="#gallery-dance" data-slide-to="2">
+				<a href="#gallery-dance" data-slide-to="0">
 					<img class="img-responsive" src="./data/img/dance.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-<!-- 						<span>Category</span> -->
 						<h3>DANCE</h3>
 					</div>
 				</a>
@@ -54,11 +51,10 @@
 
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-workshop">
-				<a href="#gallery-workshop" data-slide-to="3">
+				<a href="#gallery-workshop" data-slide-to="0">
 					<img class="img-responsive" src="./data/img/workshop.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-<!-- 						<span>Category</span> -->
 						<h3>WORKSHOP</h3>
 					</div>
 				</a>
@@ -67,11 +63,10 @@
 
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-gathering">
-				<a href="#gallery-gathering" data-slide-to="4">
+				<a href="#gallery-gathering" data-slide-to="0">
 					<img class="img-responsive" src="./data/img/gathering.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-<!-- 						<span>Category</span> -->
 						<h3>GATHERING</h3>
 					</div>
 				</a>
@@ -80,7 +75,7 @@
 
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-celebration">
-				<a href="#gallery-celebration" data-slide-to="5">
+				<a href="#gallery-celebration" data-slide-to="0">
 					<img class="img-responsive" src="./data/img/celebration.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
@@ -165,11 +160,6 @@
 							<div class="carousel-caption">
 							</div>
 						</div>
-						
-						<div class="item"> <img src="./data/img/musical3.jpg" alt="item3">
-							<div class="carousel-caption">
-							</div>
-						</div>						
 					</div>
 					<!--Begin Previous and Next buttons-->
 					<a class="left carousel-control" href="#gallery-musical" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 

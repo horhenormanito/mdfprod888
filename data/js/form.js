@@ -1,23 +1,37 @@
+$('#modalForm').on('show.bs.modal', function (event) {
+	$('.statusMsg').html('');
+})
+
 function submitContactForm($url){
     var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-    var name = $('#inputName').val();
-    var email = $('#inputEmail').val();
-    var message = $('#inputMessage').val();
+    
+    var inputName = $('#inputName');
+    var inputEmail = $('#inputEmail');
+    var inputMessage = $('#inputMessage');
+    
+    inputName.next().html('');
+    inputEmail.next().html('');
+    inputMessage.next().html('');
+    
+    var name = inputName.val();
+    var email = inputEmail.val();
+    var message = inputMessage.val();
+    
     if(name.trim() == '' ){
-        alert('Please enter your name.');
-        $('#inputName').focus();
+        inputName.next().html('<span style="color:red;">Please enter your name.</span>');
+        inputName.focus();
         return false;
     }else if(email.trim() == '' ){
-        alert('Please enter your email.');
-        $('#inputEmail').focus();
+    	inputEmail.next().html('<span style="color:red;">Please enter your email.</span>');
+        inputEmail.focus();
         return false;
     }else if(email.trim() != '' && !reg.test(email)){
-        alert('Please enter valid email.');
-        $('#inputEmail').focus();
+    	inputEmail.next().html('<span style="color:red;">Please enter valid email.</span>');
+        inputEmail.focus();
         return false;
     }else if(message.trim() == '' ){
-        alert('Please enter your message.');
-        $('#inputMessage').focus();
+    	inputMessage.next().html('<span style="color:red;">Please enter your message.</span>');
+        inputMessage.focus();
         return false;
     }else{
         $.ajax({
@@ -32,9 +46,9 @@ function submitContactForm($url){
             },
             success:function(response){
                 if(response.status == 'OK'){
-                    $('#inputName').val('');
-                    $('#inputEmail').val('');
-                    $('#inputMessage').val('');
+                    inputName.val('');
+                    inputEmail.val('');
+                    inputMessage.val('');
                     $('.statusMsg').html('<span style="color:green;">Thanks for contacting us, we\'ll get back to you soon.</p>');
                 }else{
                     $('.statusMsg').html('<span style="color:red;">Some problem occurred, please try again.</span>');

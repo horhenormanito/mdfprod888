@@ -9,6 +9,8 @@
 
 	<title>The Core by MDF Productions</title>
 
+	<link rel="icon" href="./data/img/Header-Logo.png">
+	
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 
@@ -42,6 +44,13 @@
 
 <body>
 
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=634445106966703&autoLogAppEvents=1"></script>
+	
+	<!-- Facebook chat -->
+	<?php include("facebook_chat.php");?>
+	<!-- /Facebook chat -->	
+	
 	<!-- Navigation Area -->
 	<?php include("nav_area.php");?>
 	<!-- /Navigation Area -->
@@ -99,8 +108,8 @@
 	
 	<!-- Contact -->
 	<?php include("contact.php");?>
-	<!-- /Contact -->	
-
+	<!-- /Contact -->
+	
 	<div id="copyright" class="container">
 		<ul class="links">
 			<li>&copy;HORIAN. All rights reserved.</li>
@@ -136,7 +145,8 @@
 	<script type="text/javascript" src="data/js/particles.js"></script>
 	<script type="text/javascript" src="data/js/main.js"></script>
 	<script type="text/javascript" src="data/js/form.js"></script>
-
+	<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+	
 </body>
 
 </html>

@@ -56,7 +56,6 @@
 								</span>
 								
 							</div>
-<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 					</div>
 					<!-- /team -->					
 
@@ -75,7 +74,6 @@
 								</span>								
 								
 							</div>
-<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 					</div>
 					<!-- /team -->
 					
@@ -93,7 +91,6 @@
     								</div>
 								</span>								
 							</div>
-<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 					</div>
 					<!-- /team -->
 					
@@ -101,7 +98,7 @@
 						<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/Rufe.jpg" alt="">
-								<h3 class="white-text">Rufie</h3>
+								<h3 class="white-text">Rofe Jephonie Villarino</h3>
 								<span>Digital Specialist</span>
 								<span>
     								<div class="team-social">
@@ -111,7 +108,6 @@
     								</div>
 								</span>								
 							</div>
-<!-- 							<p class="white-text">"Ivy's quotes."</p> -->
 					</div>
 					<!-- /team -->						
 					

@@ -14,7 +14,7 @@
 			<!-- /Section header -->
 			
 			<!-- pricing -->
-			<div class="col-sm-2">
+			<div class="col-sm-2 service-area">
 				<div class="pricing">
 					<div class="price-head">
 						<span class="price-title">Yoga</span>
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-2">
+			<div class="col-sm-2 service-area">
 				<div class="pricing">
 					<div class="price-head">
 						<span class="price-title">Yoga</span>
@@ -66,7 +66,7 @@
 			
 			
 			<!-- pricing -->
-			<div class="col-sm-2">
+			<div class="col-sm-2 service-area">
 				<div class="pricing">
 					<div class="price-head">
 						<span class="price-title">Pop Dance</span>
@@ -90,7 +90,7 @@
 			<!-- /pricing -->	
 			
 			<!-- pricing -->
-			<div class="col-sm-2">
+			<div class="col-sm-2 service-area">
 				<div class="pricing">
 					<div class="price-head">
 						<span class="price-title">Meditation</span>
@@ -111,7 +111,7 @@
 			<!-- /pricing -->	
 			
 			<!-- pricing -->
-			<div class="col-sm-2">
+			<div class="col-sm-2 service-area">
 				<div class="pricing">
 					<div class="price-head">
 						<span class="price-title">Space Rentals</span>
@@ -145,7 +145,7 @@
 
 							
 			<!-- pricing -->
-			<div class="col-sm-2">
+			<div class="col-sm-2 service-area">
 				<div class="pricing">
 					<div class="price-head">
 						<span class="price-title">Sexy Tease Dance</span>
