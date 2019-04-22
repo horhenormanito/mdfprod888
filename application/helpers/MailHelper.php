@@ -12,29 +12,34 @@ class MailHelper{
 		$message= $_POST['message'];
 		
 		// Get full html:
-		$body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-				<html xmlns="http://www.w3.org/1999/xhtml">
+		$body = '<!DOCTYPE html>
+				<html lang="en">
 				<head>
 				    <meta http-equiv="Content-Type" content="text/html; charset=' . strtolower(config_item('charset')) . '" />
 				    <title>' . html_escape($SUBJECT) . '</title>
+				    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 				    <style type="text/css">
 				        body {
-				            font-family: Arial, Verdana, Helvetica, sans-serif;
+				            font-family: 'Raleway', sans-serif;
 				            font-size: 16px;
 				        }
+
+					table, th, td{
+				            border: 1px dotted;
+					}
 				    </style>
 				</head>
 				<body>
-					<h4>Contact request has been submitted to MDF Productions, details are given below.</h4>
-				    <table cellspacing="0" style="width: 300px; height: 200px;">
+					<h4>Contact request has been submitted to MDF Productions, please check the details below.</h4>
+				    	<table cellspacing="0" style="width: 300px; height: 100px; ">
 				        <tr>
-				            <th>Name:</th><td>'.$name.'</td>
+				            <th>Name</th><td>'.$name.'</td>
 				        </tr>
-				        <tr style="background-color: #e0e0e0;">
-				            <th>Email:</th><td>'.$email.'</td>
+				        <tr >
+				            <th>Email</th><td>'.$email.'</td>
 				        </tr>
 				        <tr>
-				            <th>Message:</th><td>'.$message.'</td>
+				            <th>Message</th><td>'.$message.'</td>
 				        </tr>
 				    </table>
 				</body>
