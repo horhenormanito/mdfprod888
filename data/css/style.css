@@ -39,6 +39,8 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     color: #868F9B;
+/*     black and white */
+    background-color: black !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,7 +48,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin-top: 35px;
     margin-bottom: 20px;
-    color: #10161A;
+    
+    
+/*     black and white */
+/* 	color: #10161A; */
+	color: #ffffff;
+
 }
 
 h1 {
@@ -111,6 +118,7 @@ ul, ol {
 
 .section {
     position: relative;
+/*     background-color: black !important; */
 }
 
 .md-padding {
@@ -126,7 +134,9 @@ ul, ol {
 /* --  background section  -- */
 
 .bg-grey {
-    background-color: #FAFAFA;
+/* 	black and white */
+/*     background-color: #FAFAFA; */
+    background-color: black;
     border-top: 1px solid #EEE;
     border-bottom: 1px solid #EEE;
 }
@@ -1933,4 +1943,8 @@ div[id*="modal-"] .modal-content{
 
 .error-msg{
 	color: red;
+}
+
+.carousel-control{
+	color: #637508 !important;
 }
