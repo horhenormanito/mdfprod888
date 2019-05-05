@@ -1090,7 +1090,8 @@ header {
     height: 165px !important;
     border-radius: 10% !important;
 /* 	border:3px solid #4f4f4f; */
-	border:2px solid #637508;
+	border:2px solid #637508; 
+/* 	box-shadow: 0 0 20px #637508; */
 	
 }
 
@@ -1949,4 +1950,8 @@ div[id*="modal-"] .modal-content{
 
 .carousel-control{
 	color: #637508 !important;
+}
+
+.home-wrapper img{
+	opacity: 0.7;
 }
