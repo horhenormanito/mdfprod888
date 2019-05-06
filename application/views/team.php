@@ -82,7 +82,7 @@
 							<div class="team-meta">
 								<img src="./data/img/Manchie.jpg" alt="">
 								<h3 class="white-text">Manchie Maloloy-on</h3>
-								<span>Marketing Manager</span>
+								<span>Marketing and Communications Manager</span>
 								<span>
     								<div class="team-social">
     									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
@@ -99,7 +99,7 @@
 							<div class="team-meta">
 								<img src="./data/img/Rufe.jpg" alt="">
 								<h3 class="white-text">Rofe Jephonie Villarino</h3>
-								<span>Digital Specialist</span>
+								<span>Junior Digital Content Creator </span>
 								<span>
     								<div class="team-social">
     									<a href="#" class="facebook"><i class="fa fa-facebook "></i></a>
