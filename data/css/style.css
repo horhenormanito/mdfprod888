@@ -1162,6 +1162,12 @@ header {
 	Blog
 \*------------------------------------*/
 
+#blog{
+	background-image: url("../img/News Background.png");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+
 .blog {
     background-color: #FFF;
     margin: 15px 0px;
@@ -1958,4 +1964,9 @@ div[id*="modal-"] .modal-content{
 
 .home-wrapper img{
 	opacity: 0.7;
+}
+
+.fb-page {
+	border: 11px solid #414918 !important;
+	border-radius: 5px;
 }
