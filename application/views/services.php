@@ -41,20 +41,20 @@
 			<div class="col-sm-2 service-area">
 				<div class="pricing">
 					<div class="price-head">
-						<span class="price-title">Yoga</span>
+						<span class="price-title">Zumba</span>
 						<div class="price">
 							<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
 						</div>
 					</div>
 					<ul class="price-content">
 						<li>
-							<p>Tuesdays 7:30 PM</p>
+							<p>Mondays 7:30 PM</p>
 						</li>
 						<li>
-							<p>Fridays 10:00 PM</p>
+							<p>Fridays 7:30 PM</p>
 						</li>
 						<li>
-							<p>By: Jeff Dan Barientos</p>
+							<p>By: Juan Carlos</p>
 						</li>
 					</ul>
 					<div class="price-btn">

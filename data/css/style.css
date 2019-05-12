@@ -1920,6 +1920,12 @@ a:focus {
 	width: 100%;
 }
 
+.carousel-inner{
+	position: relative !important;
+	text-align: center !important;
+	display: block;
+	margin: auto;
+}
 .close:focus, .close:hover{
 	opacity: 0.4 !important;
 }
