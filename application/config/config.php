@@ -23,7 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:80/mdfprod888/';
+// $config['base_url'] = 'http://site.mdfprod888.com/';
+   $config['base_url'] = 'http://localhost:80/mdfprod888/';
 // $config['base_url'] = 'https://6c5fc15f.ngrok.io/mdfprod888/';
 
 /*
@@ -224,7 +225,7 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 4;
 
 /*
 |--------------------------------------------------------------------------

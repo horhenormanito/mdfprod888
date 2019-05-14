@@ -54,7 +54,7 @@
 				<!-- contact form -->
 				<div class="col align-center">
 					<div class="contact">
-						<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
+						<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal-contact">
 					    	Contact Us
 						</button>
 					</div>
@@ -80,7 +80,7 @@
 <!-- /Contact -->
 
 <!-- Contact Form Modal -->
-<div class="modal fade" id="modalForm" role="dialog">
+<div class="modal fade" id="modal-contact" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <!-- Modal Header -->
@@ -99,18 +99,18 @@
                 <p class="statusMsg"></p>
                 <form role="form">
                     <div class="form-group">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/>
+                        <label for="inputContactName">Name</label>
+                        <input type="text" class="form-control" id="inputContactName" placeholder="Enter your name"/>
                         <p class="error-msg"></p>
                     </div>
                     <div class="form-group">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"/>
+                        <label for="inputContactEmail">Email</label>
+                        <input type="email" class="form-control" id="inputContactEmail" placeholder="Enter your email"/>
                         <p class="error-msg"></p>
                     </div>
                     <div class="form-group">
-                        <label for="inputMessage">Message</label>
-                        <textarea class="form-control" id="inputMessage" placeholder="Enter your message"></textarea>
+                        <label for="inputContactMessage">Message</label>
+                        <textarea class="form-control" id="inputContactMessage" placeholder="Enter your message"></textarea>
                         <p class="error-msg"></p>
                     </div>
                 </form>

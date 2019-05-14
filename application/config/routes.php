@@ -53,4 +53,4 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['do-mail'] = 'mdfProdMailController/doMail';
+// $route['do-mail'] = 'mdfProdMailController/doMail';

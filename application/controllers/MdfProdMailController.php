@@ -3,7 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
-require_once('../mdfprod888/application/helpers/MailHelper.php');
+// Local setting
+ require_once('../mdfprod888/application/helpers/MailHelper.php');
+// Production settion
+//require_once('../site/application/helpers/MailHelper.php');
 
 class MdfProdMailController extends CI_Controller {
 
@@ -51,4 +54,5 @@ class MdfProdMailController extends CI_Controller {
 			echo json_encode($data);
 		}
 	}
+	
 }

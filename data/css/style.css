@@ -1879,7 +1879,7 @@ a:focus {
 	min-height: 100%;
 }
 
-#contact-form-loader{
+#contact-form-loader, #form-loader{
 	width: 80px;
   	height: auto;
 	position: absolute;
