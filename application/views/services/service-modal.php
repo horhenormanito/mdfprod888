@@ -13,7 +13,7 @@
 }
 </style>
 
-<!-- Yoga Form Modal -->
+<!-- Service Form Modal -->
 <div class="modal fade" id="modal-service" role="dialog" data-subtype="">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -44,8 +44,8 @@
 							
 							<div class="form-group" id="schedule" style="display:none;">
 								<label for="inputDate">Choose Date:</label><br>
-								<input placeholder="Selected date" type="text" id="inputDate" class="form-control datepicker">
-		<!-- 						 <input id="datetimepicker1" type="text" class="form-control" /> -->
+						        <input placeholder="Selected date" type="text" id="inputDate" class="form-control datepicker">
+<!-- 								<input placeholder="Selected date" type="text" id="inputDate" class="form-control datepicker"> -->
 							</div>
                 		</div>
                 		<div class="col-md-6">
@@ -85,7 +85,7 @@
             <!-- Modal Footer -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary submitBtn" onclick="submitSubscriptionForm('<?=base_url()?>index.php/SubscriptionController/subscribeYoga')">SUBMIT</button>
+                <button type="button" class="btn btn-primary submitBtn" onclick="submitSubscriptionForm('<?=base_url()?>index.php/SubscriptionController/subscribeService')">SUBMIT</button>
             </div>
         </div>
     </div>

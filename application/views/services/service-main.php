@@ -168,7 +168,9 @@
 						</li>		
 					</ul>
 					<div class="price-btn">
-						<button class="outline-btn">Book now</button>
+						<button class="outline-btn" id="btn-space-rent" data-toggle="modal" data-target="#modal-space-rental">
+							Book now
+						</button>
 					</div>
 				</div>
 			</div>
@@ -184,3 +186,4 @@
 <!-- /Pricing -->
 
 <?php include("service-modal.php");?>
+<?php include("space-rental.php");?>

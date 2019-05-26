@@ -192,3 +192,104 @@ function submitSubscriptionForm($url){
     }
 }
 
+function submitSpaceRent($url){
+	
+    var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+    var serviceType = $("input[name='serviceType']:checked").val();
+    
+    var inputDate = $('#srBookDate');
+    var inputHoursUse = $('#srHoursUse');
+    var inputName = $('#srInputName');
+    var inputContactNumber = $('#srInputContactNumber');
+    var inputEmail = $('#srInputEmail');
+    var inputMessage = $('#srInputMessage');
+    
+    inputDate.next().html('');
+    inputHoursUse.next().html('');
+    inputName.next().html('');
+    inputContactNumber.next().html('');
+    inputEmail.next().html('');
+    inputMessage.next().html('');
+    
+    var date = inputDate.val();
+    var hoursUse = inputHoursUse.val();
+    console.log('Hours user: ' + hoursUse);
+    var name = inputName.val();
+    var contactNumber = inputContactNumber.val();
+    var email = inputEmail.val();
+    var message = inputMessage.val();
+    
+    var param = "";
+    
+    if(date.trim() === '' ){
+    	inputDate.next().html('<span style="color:red;">Please enter your desired date.</span>');
+    	inputDate.focus();
+        return false;
+    }else if(hoursUse == null ){
+    	inputHoursUse.next().html('<span style="color:red;">Select hours of use.</span>');
+    	inputHoursUse.focus();
+        return false;
+    }else if(name.trim() == '' ){
+        inputName.next().html('<span style="color:red;">Please enter your name.</span>');
+        inputName.focus();
+        return false;
+    }else if(contactNumber.trim() == '' ){
+    	inputContactNumber.next().html('<span style="color:red;">Please enter your contact number.</span>');
+    	inputContactNumber.focus();
+        return false;
+    }else if(email.trim() == '' ){
+    	inputEmail.next().html('<span style="color:red;">Please enter your email.</span>');
+        inputEmail.focus();
+        return false;
+    }else if(email.trim() != '' && !reg.test(email)){
+    	inputEmail.next().html('<span style="color:red;">Please enter valid email.</span>');
+        inputEmail.focus();
+        return false;
+    }else if(message.trim() == '' ){
+    	inputMessage.next().html('<span style="color:red;">Please enter your message.</span>');
+        inputMessage.focus();
+        return false;
+    }else{
+    	
+    	
+    	param += '&date='+date;
+    	param += '&hoursUse='+hoursUse;
+    	param += '&name='+name;
+    	param += '&contactNumber='+contactNumber;
+    	param += '&email='+email;
+    	param += '&message='+message;
+    	
+    	var $data = 'spaceRental=1' + param;
+    	console.log("data: " + $data) 
+        $.ajax({
+            type:'POST',
+            url: $url,
+            dataType: "json",
+            data: $data,
+            beforeSend: function () {
+                $('.submitBtn').attr("disabled","disabled");
+                $('.modal-body').css('opacity', '.5');
+                $('#sr-form-loader').show();
+            },
+            success:function(response){
+                if(response.status == 'OK'){
+                    inputName.val('');
+                    inputEmail.val('');
+                    inputMessage.val('');
+                    $('.srStatusMsg').html('<span style="color:green;">Thanks for contacting us, we\'ll get back to you soon.</p>');
+                }else{
+                    $('.srStatusMsg').html('<span style="color:red;">Some problem occurred, please try again.</span>');
+                }
+                $('.submitBtn').removeAttr("disabled");
+                $('.modal-body').css('opacity', '');
+            },
+            error: function(xhr, status, error) {
+            	console.log("Error >> " + xhr + " " + status + " " + error)
+            },
+            complete: function() { 
+                $('#sr-form-loader').hide();
+            }
+        });
+    }
+}
+

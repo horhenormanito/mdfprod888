@@ -148,6 +148,75 @@ class MailHelper{
 		return $result;
 	}
 	
+	public static function sendMailSpaceRent($mail, $mailFrom, $mailTo){
+		
+		$randomString = substr(md5(mt_rand()), 0, 7);
+		log_message("info", "sendMailSpaceRent:: random string >> " . $randomString);
+		$SUBJECT = "From MDF Productions: Space Rental Request has been submitted. (".$randomString.")";
+		
+		// Submitted form data
+		$date   = $_POST['date'];
+		$hoursUse   = $_POST['hoursUse'];
+		$name   = $_POST['name'];
+		$contactNumber   = $_POST['contactNumber'];
+		$email  = $_POST['email'];
+		$message= $_POST['message'];
+		
+		// Get full html:
+		$body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+				<html xmlns="http://www.w3.org/1999/xhtml">
+				<head>
+				    <meta http-equiv="Content-Type" content="text/html; charset=' . strtolower(config_item('charset')) . '" />
+				    <title>' . html_escape($SUBJECT) . '</title>
+				    <style type="text/css">
+				        body {
+				            font-family: "Raleway", sans-serif;
+				            font-size: 16px;
+				        }
+				    		
+						tr.op-background{
+							background-color: #e0e0e0;
+						}
+				    </style>
+				</head>
+				<body>
+					<h4>Space Rental request has been submitted to MDF Productions, Forwarded details are as follows.</h4>
+				    <table cellspacing="0" style="width: 300px; height: 200px;">
+						<tr>
+				            <th>Service Name:</th><td>Space Rental</td>
+				        </tr>
+						<tr class="op-background">
+				            <th>Date:</th><td>'.$date.'</td>
+				        </tr>
+						<tr>
+				            <th>Hours of Use:</th><td>'.$hoursUse.'</td>
+				        </tr>
+				        <tr class="op-background">
+				            <th>Name:</th><td>'.$name.'</td>
+				        </tr>
+						<tr>
+				            <th>Contact Number:</th><td>'.$contactNumber.'</td>
+				        </tr>
+				        <tr class="op-background">
+				            <th>Email:</th><td>'.$email.'</td>
+				        </tr>
+				        <tr>
+				            <th>Message:</th><td>'.$message.'</td>
+				        </tr>
+				    </table>
+				</body>
+				</html>';
+		
+		$result = $mail->email
+		->from($mailFrom)
+		->to($mailTo)
+		->subject($SUBJECT)
+		->message($body)
+		->send();
+		
+		return $result;
+	}
+	
 	/**
 	 * 
 	 * @param number $length

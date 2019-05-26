@@ -346,7 +346,7 @@
 		<div class="row">
 
 			<!-- why choose us content -->
-			<div class="col-md-6 feature-title">
+			<div class="col-md-4 feature-title">
 				<div class="section-header feature-title">
 					<h2 >Featured Video</h2>
 				</div>
@@ -377,17 +377,15 @@
 			<!-- /why choose us content -->
 
 			<!-- About featured video -->
-			<div class="col-md-6">	
-			
-			
-			
+			<div class="col-md-8">	
+				
                 	<section class="main-slider">
-                   		<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                   		<div id="videoCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                     		<!-- Indicators -->
                     		<ol class="carousel-indicators">
-                    	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    	      <li data-target="#myCarousel" data-slide-to="1"></li>
-                    	      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    	      <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+                    	      <li data-target="#videoCarousel" data-slide-to="1"></li>
+                    	      <li data-target="#videoCarousel" data-slide-to="2"></li>
                        	    </ol>
                        	    
                     	    <!-- Carousel items -->
@@ -419,10 +417,6 @@
                                     data-allowfullscreen="true">
                                 </div>
                     	        
-                    	        
-                    	        <div class="carousel-caption">
-                <!--     	        	<div class ="animated-text"><div>CALM</div><span>ONESELF</span> </div> -->
-                    	        </div><!-- /.carousel-caption -->
                     	      </div><!-- /Slide2 -->    	
                 
                     	
@@ -430,31 +424,21 @@
                     	    
                     	    <!-- Controls -->
                     	    <div class="control-box">
-                    	      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    	      <a class="left carousel-control" href="#videoCarousel" role="button" data-slide="prev">
                     	        <span class="control-icon prev fa fa-chevron-left" aria-hidden="true"></span>
                     	        <span class="sr-only">Previous</span>
                     	      </a>
                     	      
-                    	      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    	      <a class="right carousel-control" href="#videoCarousel" role="button" data-slide="next">
                     	        <span class="control-icon next fa fa-chevron-right" aria-hidden="true"></span>
                     	        <span class="sr-only">Next</span>
                     	      </a>
                     	    </div><!-- /.control-box -->
                     	
-                    	  </div><!-- /#myCarousel -->
+                    	  </div><!-- /##videoCarousel -->
                     	  
                     	</section><!-- /.main-slider -->			
 			
-			
-			
-						
-<!--                 <div id="fb-root"></div> -->
-<!--                 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script> -->
-<!--                 <div class="fb-video" -->
-<!--                     data-href="https://www.facebook.com/mdfprod888/videos/314997175853455/" -->
-<!--                     data-width="500" -->
-<!--                     data-allowfullscreen="true"> -->
-<!--                 </div> -->
             </div>
                     					
 			<!-- About featured video -->

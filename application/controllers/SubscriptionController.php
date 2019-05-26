@@ -10,9 +10,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class SubscriptionController extends CI_Controller {
 
-	public function subscribeYoga()
+	public function subscribeService()
 	{
-		log_message('info', 'Call subscribeYoga >> ' . $_POST['serviceType'] . " >> " . $_POST['date']);
+		log_message('info', 'Call subscribeService >> ' . $_POST['serviceType'] . " >> " . $_POST['date']);
 		$data = array();
 		$data['status'] = 'INVALID_REQ';
 		$serviceType = $_POST['serviceType'];
@@ -41,7 +41,40 @@ class SubscriptionController extends CI_Controller {
 			
 			// Output status
 			echo json_encode($data);
-			log_message('info', 'End subscribeYoga');
+			log_message('info', 'End subscribeService');
+		}
+	}
+	
+	public function spaceRent()
+	{
+		log_message('info', 'Call spaceRent >> ');
+		$data = array();
+		$data['status'] = 'INVALID_REQ';
+		if(isset($_POST['spaceRental'])
+				&& isset($_POST['date']) && isset($_POST['hoursUse'])
+				&& isset($_POST['name'])  && isset($_POST['contactNumber'])
+				&& isset($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false)
+				&& isset($_POST['message'])){
+					
+					log_message('info', 'Retrieve post data.');
+					
+					/*
+					 * Send email to admin
+					 */
+					$to     = 'info@mdfprod888.com';
+					$subject= 'Contact Request Submitted';
+					
+					// Send email
+					$this->load->library('email');
+					if(MailHelper::sendMailSpaceRent($this, $to, $to)){
+						$data['status'] = 'OK';
+					}else{
+						$data['status'] = 'ERR';
+					}
+					
+					// Output status
+					echo json_encode($data);
+					log_message('info', 'End spaceRent');
 		}
 	}
 }
