@@ -1166,6 +1166,7 @@ header {
 	background-image: url("../img/News Background.png");
 	background-size: 100%;
 	background-repeat:no-repeat;
+	padding-bottom: 20px;
 }
 
 .blog {
@@ -1191,6 +1192,11 @@ header {
 .blog .blog-meta li i {
     color: #4c5425;
     margin-right: 5px;
+}
+
+#sponsorshipCarousel img{
+	border: 11px solid #637508 !important;
+	border-radius: 5px;
 }
 
 /*------------------------------------*\

@@ -46,8 +46,8 @@
 			<div class="col-md-4">
 				<div class="about">
 				<img class="img-responsive" src="./data/img/best team.jpg" alt="" style="margin-bottom: 10px;">
-					<h3>The Most Awesome Teams</h3>
-					<p>Work with the most talented and awesome teams who share your passion and help bring out the best version of yourself. </p>
+					<h3>The Most Awesome Team</h3>
+					<p>Work with one of the most talented and awesome teams who share your passion and help bring out the best version of yourself. </p>
 <!-- 					<a href="#">Read more</a> -->
 				</div>
 			</div>

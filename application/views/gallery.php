@@ -348,7 +348,7 @@
 			<!-- why choose us content -->
 			<div class="col-md-4 feature-title">
 				<div class="section-header feature-title">
-					<h2 >Featured Video</h2>
+					<h2 >Featured Videos</h2>
 				</div>
 				<div class="feature-container">
     				<div style="text-align: left;">
@@ -397,7 +397,7 @@
                 				<div id="fb-root"></div>
                                 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
                                 <div class="fb-video"
-                                    data-href="https://www.facebook.com/mdfprod888/videos/314997175853455/"
+                                    data-href="https://www.facebook.com/mdfprod888/videos/686250381829875/"                                    
                                     data-width="500"
                                     data-allowfullscreen="true">
                                 </div>
@@ -418,6 +418,19 @@
                                 </div>
                     	        
                     	      </div><!-- /Slide2 -->    	
+                    	      
+                    	      <!-- Slide 3 -->
+                    	      <div class="item core-logo">
+                    	        
+                    	        <div id="fb-root"></div>
+                                <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+                                <div class="fb-video"
+                                    data-href="https://www.facebook.com/mdfprod888/videos/314997175853455/"
+                                    data-width="500"
+                                    data-allowfullscreen="true">
+                                </div>
+                    	        
+                    	      </div><!-- /Slide3 -->                        	      
                 
                     	
                     	    </div><!-- /.carousel-inner -->

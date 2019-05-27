@@ -9,12 +9,15 @@
 
 			<!-- Section header -->
 			<div class="section-header text-center">
-				<h2 class="title">Recents news</h2>
+				<h2 class="title">News</h2>
 			</div>
 			<!-- /Section header -->
 			
 			<!-- News area -->
 			<div class="col-md-6">
+			<div>
+				<h3 class="section-header text-center">What's Happening?</h3>
+			</div>			
 				<div class="core-fb-page">
 					<div class="fb-page" data-href="https://www.facebook.com/mdfprod888/" data-tabs="timeline,events" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
 						<blockquote cite="https://www.facebook.com/mdfprod888/" class="fb-xfbml-parse-ignore">
@@ -25,6 +28,9 @@
 			</div>
 			
 			<div class="col-md-6">
+			<div>
+				<h3 class="section-header text-center">Recent Sponsorships</h3>
+			</div>
 				<section class="main-slider">
 			   		<div id="sponsorshipCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 			    		<!-- Indicators -->
@@ -39,7 +45,7 @@
 			    	
 			    	      <!-- Slide 1 : Active -->
 			    	      <div class="item active core-logo">
-		        	        <img src="./data/img/blog1.jpg" alt="">
+		        	        <img src="./data/img/Health Is Life.jpg" alt="">
 		        	        <div class="carousel-caption">
 		        	        </div><!-- /.carousel-caption -->
 			    	      </div><!-- /Slide1 -->
