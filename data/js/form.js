@@ -1,10 +1,10 @@
 $('#modal-contact').on('show.bs.modal', function (event) {
-	event.preventDefault();
+	//event.preventDefault();
 	$('.statusMsg').html('');
 });
 
 $('#modal-service').on('show.bs.modal', function (event) {
-	event.preventDefault();
+	//event.preventDefault();
 	$('.statusMsg').html('');
 	var type = $('#modal-service').data('subtype'); //getter
 	$('#myModalLabel').html(type);
@@ -118,7 +118,6 @@ function submitSubscriptionForm($url){
     var message = inputMessage.val();
     
     var param = "";
-    
     if(serviceType == '0' && date.trim() === '' ){
     	inputDate.next().html('<span style="color:red;">Please enter your desired date.</span>');
     	inputDate.focus();

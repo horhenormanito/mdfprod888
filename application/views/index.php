@@ -16,6 +16,7 @@
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" type="text/css" />
 
 	<!-- Header Carousel -->
 	<link type="text/css" rel="stylesheet" href="data/css/header-carousel.css" />
@@ -135,18 +136,38 @@
 	
 	<!-- jQuery library -->
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"   integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE="   crossorigin="anonymous"></script>
+<!-- 	<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"   integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE="   crossorigin="anonymous"></script> -->
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="data/js/jquery.min.js"></script>
-	<script type="text/javascript" src="data/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="data/js/carousel.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+<!-- 	<script type="text/javascript" src="data/js/jquery.min.js"></script> -->
+<!-- 	<script type="text/javascript" src="data/js/bootstrap.min.js"></script> -->
+<!-- 	<script type="text/javascript" src="data/js/carousel.js"></script> -->
 	<script type="text/javascript" src="data/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="data/js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="data/js/particles.js"></script>
 	<script type="text/javascript" src="data/js/main.js"></script>
 	<script type="text/javascript" src="data/js/form.js"></script>
 	<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+	<script type="text/javascript">
+	
+	$(function () {
+		  $("#datepicker").datepicker({ 
+			  	startDate: '-0d',
+			    changeMonth: true,
+		        autoclose: true, 
+		        todayHighlight: true
+		  }).datepicker('update', new Date());
+
+		  $("#spacerental-datepicker").datepicker({ 
+			  	startDate: '-0d',
+			    changeMonth: true,
+		        autoclose: true, 
+		        todayHighlight: true
+		  }).datepicker('update', new Date());
+	});
+		
+	</script>
 	
 </body>
 

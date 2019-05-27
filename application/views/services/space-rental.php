@@ -1,7 +1,3 @@
-<script>
-	
-</script>
-
 <!-- Service Form Modal -->
 <div class="modal fade" id="modal-space-rental" role="dialog">
     <div class="modal-dialog">
@@ -25,7 +21,10 @@
                 		<div class="col-md-6">
 							<div class="form-group">
 								<label for="srBookDate">Book Date</label><br>
-								<input placeholder="Selected date" type="text" id="srBookDate" class="form-control">
+								<div id="spacerental-datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+								    <input class="form-control" id="srBookDate" type="text" readonly />
+								    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+								</div>
 								<p class="error-msg"></p>
 							</div>
                 		</div>

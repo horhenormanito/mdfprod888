@@ -12,7 +12,7 @@ class SubscriptionController extends CI_Controller {
 
 	public function subscribeService()
 	{
-		log_message('info', 'Call subscribeService >> ' . $_POST['serviceType'] . " >> " . $_POST['date']);
+		log_message('info', 'Call subscribeService >> ' . $_POST['serviceType'] . " >> ");
 		$data = array();
 		$data['status'] = 'INVALID_REQ';
 		$serviceType = $_POST['serviceType'];
@@ -41,6 +41,8 @@ class SubscriptionController extends CI_Controller {
 			
 			// Output status
 			echo json_encode($data);
+			
+			log_message('info', 'JSON Encode data: '.json_encode($data));
 			log_message('info', 'End subscribeService');
 		}
 	}

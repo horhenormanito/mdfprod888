@@ -12,7 +12,7 @@ class MailHelper{
 	 */
 	public static function sendMail($mail, $mailFrom, $mailTo){
 		
-		$SUBJECT = "From MDF Productions: Contact Request has been submitted.";
+		$SUBJECT = "Contact Request has been submitted.";
 		// Submitted form data
 		$name   = $_POST['name'];
 		$email  = $_POST['email'];
@@ -30,19 +30,25 @@ class MailHelper{
 				            font-family: "Raleway", sans-serif;
 				            font-size: 16px;
 				        }
-				    		
-					table, th, td{
-				            border: 1px dotted;
-					}
+
+						tr.op-background{
+							background-color: #e0e0e0;
+						}
+
+						.contact th{
+							text-align: left;
+							width: 40%;
+						}
+
 				    </style>
 				</head>
 				<body>
 					<h4>Contact request has been submitted to MDF Productions, please check the details below.</h4>
-				    	<table cellspacing="0" style="width: 300px; height: 100px; ">
+				    	<table class="contact" cellspacing="0" style="width: 600px; height: 100px; ">
 				        <tr>
 				            <th>Name</th><td>'.$name.'</td>
 				        </tr>
-				        <tr >
+				        <tr class="op-background">
 				            <th>Email</th><td>'.$email.'</td>
 				        </tr>
 				        <tr>
@@ -55,7 +61,7 @@ class MailHelper{
 		//$body = $this->email->full_html($subject, $message);
 		
 		$result = $mail->email
-		->from($mailFrom)
+		->from($mailFrom, "MDF Productions")
 		->to($mailTo)
 		->subject($SUBJECT)
 		->message($body)
@@ -75,7 +81,6 @@ class MailHelper{
 		
 		$randomString = substr(md5(mt_rand()), 0, 7);
 		log_message("info", "random string >> " . $randomString);
-		$SUBJECT = "From MDF Productions: Subscription Request has been submitted. (".$randomString.")";
 		
 		// Submitted form data
 		$serviceName   = $_POST['serviceName'];
@@ -93,6 +98,8 @@ class MailHelper{
 			$serviceType = "Monthly";
 		}
 		
+		$SUBJECT = "Subscription Request(".$serviceName.") has been submitted. (".$randomString.")";
+		
 		// Get full html:
 		$body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 				<html xmlns="http://www.w3.org/1999/xhtml">
@@ -108,11 +115,16 @@ class MailHelper{
 						tr.op-background{
 							background-color: #e0e0e0;
 						}
+
+						.service th{
+							text-align: left;
+							width: 40%;
+						}
 				    </style>
 				</head>
 				<body>
 					<h4>Subscription request has been submitted to MDF Productions, Forwarded details are as follows.</h4>
-				    <table cellspacing="0" style="width: 300px; height: 200px;">
+				    <table class="service" cellspacing="0" style="width: 600px; height: 200px;">
 						<tr>
 				            <th>Service Name:</th><td>'.$serviceName.'</td>
 				        </tr>
@@ -139,7 +151,7 @@ class MailHelper{
 				</html>';
 		
 		$result = $mail->email
-		->from($mailFrom)
+		->from($mailFrom, "MDF Productions")
 		->to($mailTo)
 		->subject($SUBJECT)
 		->message($body)
@@ -152,7 +164,7 @@ class MailHelper{
 		
 		$randomString = substr(md5(mt_rand()), 0, 7);
 		log_message("info", "sendMailSpaceRent:: random string >> " . $randomString);
-		$SUBJECT = "From MDF Productions: Space Rental Request has been submitted. (".$randomString.")";
+		$SUBJECT = "Space Rental Request has been submitted. (".$randomString.")";
 		
 		// Submitted form data
 		$date   = $_POST['date'];
@@ -177,11 +189,16 @@ class MailHelper{
 						tr.op-background{
 							background-color: #e0e0e0;
 						}
+
+						.service th{
+							text-align: left;
+							width: 40%;
+						}
 				    </style>
 				</head>
 				<body>
 					<h4>Space Rental request has been submitted to MDF Productions, Forwarded details are as follows.</h4>
-				    <table cellspacing="0" style="width: 300px; height: 200px;">
+				    <table class="service" cellspacing="0" style="width: 600px; height: 200px;">
 						<tr>
 				            <th>Service Name:</th><td>Space Rental</td>
 				        </tr>
@@ -208,7 +225,7 @@ class MailHelper{
 				</html>';
 		
 		$result = $mail->email
-		->from($mailFrom)
+		->from($mailFrom, "MDF Productions")
 		->to($mailTo)
 		->subject($SUBJECT)
 		->message($body)

@@ -6,12 +6,6 @@
 	  document.getElementById('schedule').style.display = 'block';
 	}
 </script>
-<style>
-#inputDate{z-index:1500 !important;}
-.clsDatePicker {
-    z-index: 100000;
-}
-</style>
 
 <!-- Service Form Modal -->
 <div class="modal fade" id="modal-service" role="dialog" data-subtype="">
@@ -44,8 +38,10 @@
 							
 							<div class="form-group" id="schedule" style="display:none;">
 								<label for="inputDate">Choose Date:</label><br>
-						        <input placeholder="Selected date" type="text" id="inputDate" class="form-control datepicker">
-<!-- 								<input placeholder="Selected date" type="text" id="inputDate" class="form-control datepicker"> -->
+								<div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+								    <input class="form-control" id="inputDate" type="text" readonly />
+								    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+								</div>
 							</div>
                 		</div>
                 		<div class="col-md-6">
