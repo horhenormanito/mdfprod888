@@ -16,7 +16,7 @@
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-karate">
 				<a href="#gallery-karate" data-slide-to="0">
-					<img class="img-responsive" src="./data/img/karate.jpg" alt="">
+					<img class="img-responsive" src="./data/img/Karate.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<h3>KARATE</h3>
@@ -28,7 +28,7 @@
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-musical">
 				<a href="#gallery-musical" data-slide-to="1">
-					<img class="img-responsive" src="./data/img/musical.jpg" alt="">
+					<img class="img-responsive" src="./data/img/Musical.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<h3>MUSICAL</h3>
@@ -40,7 +40,7 @@
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-dance">
 				<a href="#gallery-dance" data-slide-to="0">
-					<img class="img-responsive" src="./data/img/dance.jpg" alt="">
+					<img class="img-responsive" src="./data/img/Dance.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<h3>DANCE</h3>
@@ -52,7 +52,7 @@
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-workshop">
 				<a href="#gallery-workshop" data-slide-to="0">
-					<img class="img-responsive" src="./data/img/workshop.jpg" alt="">
+					<img class="img-responsive" src="./data/img/Workshop.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<h3>WORKSHOP</h3>
@@ -64,10 +64,10 @@
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-gathering">
 				<a href="#gallery-gathering" data-slide-to="0">
-					<img class="img-responsive" src="./data/img/gathering.jpg" alt="">
+					<img class="img-responsive" src="./data/img/Meditation.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<h3>GATHERING</h3>
+						<h3>MEDITATION</h3>
 					</div>
 				</a>
 			</div>
@@ -76,11 +76,11 @@
 			<!-- Work -->
 			<div class="col-md-4 col-xs-6 work" data-toggle="modal" data-target="#modal-celebration">
 				<a href="#gallery-celebration" data-slide-to="0">
-					<img class="img-responsive" src="./data/img/celebration.jpg" alt="">
+					<img class="img-responsive" src="./data/img/Events.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 <!-- 						<span>Category</span> -->
-						<h3>CELEBRATION</h3>
+						<h3>EVENTS</h3>
 					</div>
 				</a>
 			</div>
@@ -265,7 +265,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left white-text">Gathering</div>
+				<div class="pull-left white-text">Meditation</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
@@ -301,7 +301,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left white-text">Celebration</div>
+				<div class="pull-left white-text">Events</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
@@ -380,7 +380,7 @@
 			<div class="col-md-8">	
 				
                 	<section class="main-slider">
-                   		<div id="videoCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                   		<div id="videoCarousel" class="carousel slide carousel-fade" data-interval="false">
                     		<!-- Indicators -->
                     		<ol class="carousel-indicators">
                     	      <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
