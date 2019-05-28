@@ -1,13 +1,16 @@
-$('#modal-contact').on('show.bs.modal', function (event) {
-	//event.preventDefault();
-	$('.statusMsg').html('');
+$('#modal-contact, #modal-space-rental').on('show.bs.modal', function (event) {
+	$('.error-msg, .statusMsg').each(function(){
+		$(this).html('');
+	});
 });
 
 $('#modal-service').on('show.bs.modal', function (event) {
-	//event.preventDefault();
-	$('.statusMsg').html('');
 	var type = $('#modal-service').data('subtype'); //getter
 	$('#myModalLabel').html(type);
+	
+	$('.error-msg, .statusMsg').each(function(){
+		$(this).html('');
+	});
 })
 
 $( "#btn-yoga" ).click(function() {
