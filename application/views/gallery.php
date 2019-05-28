@@ -67,7 +67,7 @@
 					<img class="img-responsive" src="./data/img/Meditation.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<h3>MEDITATION</h3>
+						<h3>WELLNESS</h3>
 					</div>
 				</a>
 			</div>
