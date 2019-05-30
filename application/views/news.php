@@ -52,17 +52,11 @@
 			    	
 			    	      <!-- Slide 2 -->
 			    	      <div class="item core-logo">
-			    	        <img src="./data/img/blog2.jpg" alt="">
+			    	        <img src="./data/img/Babies & Kids Fair.jpg" alt="">
 			    	        <div class="carousel-caption">
 			    	        </div><!-- /.carousel-caption -->
 			    	      </div><!-- /Slide2 -->
 			    	
-			    	      <!-- Slide 3 -->
-			    	      <div class="item core-logo">
-			    	        <img src="./data/img/blog3.jpg" alt="">
-			    	        <div class="carousel-caption">
-			    	        </div><!-- /.carousel-caption -->
-			    	      </div><!-- /Slide3 -->
 			    	
 			    	    </div><!-- /.carousel-inner -->
 			    	    

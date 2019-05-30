@@ -1982,3 +1982,7 @@ div[id*="modal-"] .modal-content{
 	border: 11px solid #414918 !important;
 	border-radius: 5px;
 }
+
+#sponsorshipCarousel .carousel-inner{
+	width: 93.5% !important;
+}
