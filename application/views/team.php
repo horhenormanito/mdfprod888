@@ -9,7 +9,7 @@
 
 			<!-- Section header -->
 			<div class="section-header text-center">
-				<h2 class="title">Our Team</h2>
+				<h2 class="title">Our Partners</h2>
 			</div>
 			<!-- /Section header -->
 			
@@ -41,76 +41,84 @@
 			<div class="col-md-10 col-md-offset-1">
 				<div id="team-slider" class="owl-carousel owl-theme">
 				
-					<!-- team -->
+					<!-- Partner -->
 						<div class="team">
 							<div class="team-meta">
-								<img src="./data/img/Margo.jpg" alt="">
-								<h3 class="white-text">Margarita Domingo Frasco</h3>
-								<span>Owner/CEO</span>
-								<span>
-    								<div class="team-social">
-    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
-    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-    								</div>
-								</span>
-								
+								<img src="./data/img/Exp.png" alt="">
 							</div>
 					</div>
-					<!-- /team -->					
+					<!-- /Partner -->					
 
-					<!-- team -->
+
+					<!-- Partner -->
 						<div class="team">
 							<div class="team-meta">
-								<img src="./data/img/Ivy.jpg" alt="">
-								<h3 class="white-text">Ivy Melody Gallur</h3>
-								<span>General Manager</span>
-								<span>
-    								<div class="team-social">
-    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
-    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-    								</div>
-								</span>								
+								<img src="./data/img/Aids.png" alt="">
+							</div>
+					</div>
+					<!-- /Partner -->	
+					
+					<!-- Partner -->
+						<div class="team">
+							<div class="team-meta">
+								<img src="./data/img/Cubs Society.png" alt="">
+							</div>
+					</div>
+					<!-- /Partner -->	
+					
+
+					<!-- Partner -->
+						<div class="team">
+							<div class="team-meta">
+								<img src="./data/img/Ginoong Pilipinas Logo.png" alt="">
+							</div>
+					</div>
+					<!-- /Partner -->	
+					
+
+					<!-- Partner -->
+						<div class="team">
+							<div class="team-meta">
+								<img src="./data/img/Mc Bridge.png" alt="">
+							</div>
+					</div>
+					<!-- /Partner -->	
+					
+					
+					<!-- Partner -->
+						<div class="team">
+							<div class="team-meta">
+								<img src="./data/img/My Tsikiting.png" alt="">
+							</div>
+					</div>
+					<!-- /Partner -->	
+
+					<!-- Partner -->
+						<div class="team">
+							<div class="team-meta">
+								<img src="./data/img/Nyd.png" alt="">
+							</div>
+					</div>
+					<!-- /Partner -->						
+					
+					
+					<!-- team -->
+<!-- 						<div class="team"> -->
+<!-- 							<div class="team-meta"> -->
+<!-- 								<img src="./data/img/Ivy.jpg" alt=""> -->
+<!-- 								<h3 class="white-text">Ivy Melody Gallur</h3> -->
+<!-- 								<span>General Manager</span> -->
+<!-- 								<span> -->
+<!--     								<div class="team-social"> -->
+<!--     									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a> -->
+<!--     									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
+<!--     									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+<!--     								</div> -->
+<!-- 								</span>								 -->
 								
-							</div>
-					</div>
+<!-- 							</div> -->
+<!-- 					</div> -->
 					<!-- /team -->
-					
-					<!-- team -->
-						<div class="team">
-							<div class="team-meta">
-								<img src="./data/img/Manchie.jpg" alt="">
-								<h3 class="white-text">Manchie Maloloy-on</h3>
-								<span>Marketing and Communications Manager</span>
-								<span>
-    								<div class="team-social">
-    									<a href="#" class= "facebook"><i class="fa fa-facebook "></i></a>
-    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-    								</div>
-								</span>								
-							</div>
-					</div>
-					<!-- /team -->
-					
-					<!-- team -->
-						<div class="team">
-							<div class="team-meta">
-								<img src="./data/img/Rufe.jpg" alt="">
-								<h3 class="white-text">Rofe Jephonie Villarino</h3>
-								<span>Junior Digital Content Creator </span>
-								<span>
-    								<div class="team-social">
-    									<a href="#" class="facebook"><i class="fa fa-facebook "></i></a>
-    									<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-    									<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-    								</div>
-								</span>								
-							</div>
-					</div>
-					<!-- /team -->						
-					
 				</div>
 			</div>
 			<!-- /Team slider -->

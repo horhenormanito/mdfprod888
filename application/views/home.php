@@ -15,25 +15,37 @@
     	
     	      <!-- Slide 1 : Active -->
     	      <div class="item active core-logo">
-        	        <img src="./data/img/core-mdf.png" alt="">
+        	        <img src="./data/img/core-mdf-gold.png" alt="">
         	        <div class="carousel-caption">
         	        </div><!-- /.carousel-caption -->
     	      </div><!-- /Slide1 -->
+    	      
+    	      
+    	      <!-- Slide 1.1 : Active -->
+    	      <div class="item core-logo text-effect">
+    	      	<div>
+    	      		<p>Presents</p>
+    	      	</div>	
+<!--         	        <img src="./data/img/presents.png" alt=""> -->
+        	        <div class="carousel-caption">
+        	        </div><!-- /.carousel-caption -->
+    	      </div><!-- /Slide1.1 -->    	      
     	
     	      <!-- Slide 2 -->
     	      <div class="item core-logo">
-    	        <img src="./data/img/calm oneself.jpg" alt="">
+    	        <img src="./data/img/core-mdf.png" alt="">
     	        <div class="carousel-caption">
 <!--     	        	<div class ="animated-text"><div>CALM</div><span>ONESELF</span> </div> -->
     	        </div><!-- /.carousel-caption -->
     	      </div><!-- /Slide2 -->
     	
-    	      <!-- Slide 3 -->
-    	      <div class="item core-logo">
-    	        <img src="./data/img/release energy.jpg" alt="">
-    	        <div class="carousel-caption">
-    	        </div><!-- /.carousel-caption -->
-    	      </div><!-- /Slide3 -->
+
+    	      <!-- Slide 1.1 : Active -->
+    	      <div class="item core-logo text-effect">
+    	      	<div>
+    	      		<p><b>L | I | N | K</b></p>
+    	      	</div>
+    	      </div><!-- /Slide1.1 -->    
     	
     	    </div><!-- /.carousel-inner -->
     	    

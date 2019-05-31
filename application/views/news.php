@@ -57,6 +57,19 @@
 			    	        </div><!-- /.carousel-caption -->
 			    	      </div><!-- /Slide2 -->
 			    	
+			    	      <!-- Slide 2.1 -->
+			    	      <div class="item core-logo">
+			    	        <img src="./data/img/Ginoong Pilipinas.jpg" alt="">
+			    	        <div class="carousel-caption">
+			    	        </div><!-- /.carousel-caption -->
+			    	      </div><!-- /Slide2.1 -->
+			    	      
+			    	      <!-- Slide 2.2 -->
+			    	      <div class="item core-logo">
+			    	        <img src="./data/img/Higher.jpg" alt="">
+			    	        <div class="carousel-caption">
+			    	        </div><!-- /.carousel-caption -->
+			    	      </div><!-- /Slide2.2 -->
 			    	
 			    	    </div><!-- /.carousel-inner -->
 			    	    

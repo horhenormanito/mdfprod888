@@ -1089,11 +1089,11 @@ header {
     position: absolute;
     left: 0;
     top: 0;
-    width: 165px !important;
-    height: 165px !important;
+    width: 200px !important;
+    height: 200px !important;
     border-radius: 10% !important;
 /* 	border:3px solid #4f4f4f; */
-	border:2px solid #637508; 
+/* 	border:2px solid #637508;  */
 /* 	box-shadow: 0 0 20px #637508; */
 	
 }
@@ -1975,7 +1975,7 @@ div[id*="modal-"] .modal-content{
 }
 
 .home-wrapper img{
-	opacity: 0.7;
+	opacity: 1;
 }
 
 .fb-page {
@@ -1985,4 +1985,42 @@ div[id*="modal-"] .modal-content{
 
 #sponsorshipCarousel .carousel-inner{
 	width: 93.5% !important;
+}
+
+.text-effect {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 529.383px;
+  background-color: #000;
+  display: table-cell;
+  vertical-align: middle
+}
+
+.text-effect p {
+  padding-top: 3em; 
+  position: auto;
+  font-family: 'Raleway',sans-serif;
+  text-transform: uppercase;
+  font-size: 4vw;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(213, 188, 16, 0.68);
+ }
+
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
