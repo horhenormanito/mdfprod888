@@ -1062,10 +1062,11 @@ header {
 }
 
 .service-area{
-	width: 180px !important;
+	width: 220px !important;
 	height: 450px !important;
 	position: relative;
 	margin: 0 auto 0 auto;
+	left: 15px;
 	
 }
 
@@ -1993,7 +1994,7 @@ div[id*="modal-"] .modal-content{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 529.383px;
+  height: 100%;
   background-color: #000;
   display: table-cell;
   vertical-align: middle
@@ -2001,6 +2002,7 @@ div[id*="modal-"] .modal-content{
 
 .text-effect p {
   padding-top: 3em; 
+  padding-bottom: 2.67em;
   position: auto;
   font-family: 'Raleway',sans-serif;
   text-transform: uppercase;
@@ -2023,4 +2025,8 @@ div[id*="modal-"] .modal-content{
   100% {
     background-position: 500%;
   }
+}
+
+#link{
+	margin-top: 2em;
 }

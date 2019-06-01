@@ -9,146 +9,64 @@
 
 			<!-- Section header -->
 			<div class="section-header text-center">
+				<h2 class="title">C | O | R | E</h2>
+				<p>
+					<h3  class="section-header text-center">"A multi-faceted community space that aspires to inspire passionate souls - a space where one can express themselves freely and uniquely."
+					</h3>
+				</p>
+			</div>
+			<!-- /Section header -->
+			
+		    <!-- /Section header -->
+			<div class="section-header text-center">
+				<h2 class="title">Why Choose Us?</h2>
+				<p> <h3  class="section-header text-center">"If you want the best value for money, then you've come to the right place."</h3></p>
+			</div>				
+
+			<!-- about -->
+			<div class="col-md-4">
+				<div class="about" >
+				<img class="img-responsive" src="./data/img/bose.jpg" alt="" style="margin-bottom: 10px;">
+					<h3>State-of-the-art Equipment</h3>
+					<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHighest quality Bose sound system, fully soundproofed interior, sprung wood dance floor and mirror walls for the best experience. </p>
+				</div>
+			</div>
+			<!-- /about -->
+
+			<!-- about -->
+			<div class="col-md-4">
+				<div class="about">
+				<img class="img-responsive" src="./data/img/savings.jpg" alt="" style="margin-bottom: 10px;"> 
+					<h3>Very Affordable Rates</h3>
+					<p>Enjoy the best the industry has to offer at the most affordable price in the market.</p>
+				</div>
+			</div>
+			<!-- /about -->
+
+			<!-- about -->
+			<div class="col-md-4">
+				<div class="about">
+				<img class="img-responsive" src="./data/img/best team.jpg" alt="" style="margin-bottom: 10px;">
+					<h3>The Most Awesome Team</h3>
+					<p>Work with one of the most talented and awesome teams who share your passion and help bring out the best version of yourself. </p>
+				</div>
+			</div>
+			<!-- /about -->
+			
+			<div class="col-md-12"/>
+			
+			<!-- Section header -->
+			<div class="section-header text-center">
 				<h2 class="title">What We Offer</h2>
 			</div>
 			<!-- /Section header -->
 			
-			<!-- pricing -->
-			<div class="col-sm-2 service-area">
-				<div class="pricing">
-					<div class="price-head">
-						<span class="price-title">Yoga</span>
-						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
-						</div>
-					</div>
-					<ul class="price-content">
-						<li>
-							<p>Tuesdays 7:30 PM</p>
-						</li>
-						<li>
-							<p>Fridays 10:00 PM</p>
-						</li>
-						<li>
-							<p>By: Jeff Dan Barientos</p>
-						</li>
-					</ul>
-					<div class="price-btn">
-						<button class="outline-btn" id="btn-yoga" data-toggle="modal" data-target="#modal-service">
-					    	Book Now
-						</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-2 service-area">
-				<div class="pricing">
-					<div class="price-head">
-						<span class="price-title">Zumba</span>
-						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
-						</div>
-					</div>
-					<ul class="price-content">
-						<li>
-							<p>Mondays 7:30 PM</p>
-						</li>
-						<li>
-							<p>Fridays 7:30 PM</p>
-						</li>
-						<li>
-							<p>By: Juan Carlos</p>
-						</li>
-					</ul>
-					<div class="price-btn">
-						<button class="outline-btn" id="btn-zumba" data-toggle="modal" data-target="#modal-service">
-					    	Book Now
-						</button>
-					</div>
-				</div>
-			</div>
-			<!-- /pricing -->
-			
 			
 			<!-- pricing -->
-			<div class="col-sm-2 service-area">
+			<div class="col-sm-3 service-area">
 				<div class="pricing">
 					<div class="price-head">
-						<span class="price-title">Pop Dance</span>
-						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
-						</div>
-					</div>
-					<ul class="price-content">
-						<li>
-							<p>Thursdays 7:30 PM</p>
-						</li>
-						<li>
-							<p>By: Mia Cabarrubias</p>
-						</li>
-					</ul>
-					<div class="price-btn">
-						<button class="outline-btn" id="btn-pop-dance" data-toggle="modal" data-target="#modal-service">
-							Book now
-						</button>
-					</div>
-				</div>
-			</div>
-			<!-- /pricing -->
-			
-			<!-- pricing -->
-			<div class="col-sm-2 service-area">
-				<div class="pricing">
-					<div class="price-head">
-						<span class="price-title">Sexy Tease Dance</span>
-						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
-						</div>
-					</div>
-					<ul class="price-content">
-						<li>
-							<p>Wednesdays 7:30 PM</p>
-						</li>
-						<li>
-							<p>By: Mia Cabarrubias</p>
-						</li>
-					</ul>
-					<div class="price-btn">
-						<button class="outline-btn" id="btn-sexy-tease" data-toggle="modal" data-target="#modal-service">
-							Book Now
-						</button>
-					</div>
-				</div>
-			</div>
-			<!-- /pricing -->	
-			
-			<!-- pricing -->
-			<div class="col-sm-2 service-area">
-				<div class="pricing">
-					<div class="price-head">
-						<span class="price-title">Meditation</span>
-						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
-						</div>
-					</div>
-					<ul class="price-content">
-						<li>
-							<p>Thursdays 6:00 PM</p>
-						</li>
-					</ul>
-					<div class="price-btn">
-						<button class="outline-btn" id="btn-meditation" data-toggle="modal" data-target="#modal-service">
-							Book now
-						</button>
-					</div>
-				</div>
-			</div>
-			<!-- /pricing -->	
-			
-			<!-- pricing -->
-			<div class="col-sm-2 service-area">
-				<div class="pricing">
-					<div class="price-head">
-						<span class="price-title">Space Rentals</span>
+						<span class="price-title">Space Rental</span>
 						<div class="price">
 							<h3>P2,588<span class="duration">/ 4 Hours</span></h3>
 						</div>
@@ -174,8 +92,110 @@
 					</div>
 				</div>
 			</div>
-			<!-- /pricing -->				
-
+			<!-- /pricing -->	
+			
+			<!-- pricing -->
+			<div class="col-sm-3 service-area">
+				<div class="pricing">
+					<div class="price-head">
+						<span class="price-title">Yoga</span>
+						<div class="price">
+							<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
+						</div>
+					</div>
+					<ul class="price-content">
+						<li>
+							<p>Fridays <br>6:00 PM - 7:00 PM</p>
+						</li>
+						<li>
+							<p>By: Jeff Dan Barientos</p>
+						</li>
+					</ul>
+					<div class="price-btn">
+						<button class="outline-btn" id="btn-yoga" data-toggle="modal" data-target="#modal-service">
+					    	Book Now
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 service-area">
+				<div class="pricing">
+					<div class="price-head">
+						<span class="price-title">Zumba</span>
+						<div class="price">
+							<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
+						</div>
+					</div>
+					<ul class="price-content">
+						<li>
+							<p>Mondays <br>7:00 PM - 8:00 PM</p>
+						</li>
+						<li>
+							<p>Fridays <br>7:00 PM - 8:00 PM</p>
+						</li>
+						<li>
+							<p>By: Juan Carlos</p>
+						</li>
+					</ul>
+					<div class="price-btn">
+						<button class="outline-btn" id="btn-zumba" data-toggle="modal" data-target="#modal-service">
+					    	Book Now
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-- /pricing -->
+			
+			
+			<!-- pricing -->
+			<div class="col-sm-3 service-area">
+				<div class="pricing">
+					<div class="price-head">
+						<span class="price-title">Pop Dance</span>
+						<div class="price">
+							<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
+						</div>
+					</div>
+					<ul class="price-content">
+						<li>
+							<p>Wednesdays <br>7:00 PM - 8:00 PM</p>
+						</li>
+						<li>
+							<p>By: Mia Cabarrubias</p>
+						</li>
+					</ul>
+					<div class="price-btn">
+						<button class="outline-btn" id="btn-pop-dance" data-toggle="modal" data-target="#modal-service">
+							Book now
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-- /pricing -->
+			
+			<!-- pricing -->
+			<div class="col-sm-3 service-area">
+				<div class="pricing">
+					<div class="price-head">
+						<span class="price-title">Meditation</span>
+						<div class="price">
+							<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
+						</div>
+					</div>
+					<ul class="price-content">
+						<li>
+							<p>Mondays <br>6:00 PM - 7:00 PM</p>
+						</li>
+					</ul>
+					<div class="price-btn">
+						<button class="outline-btn" id="btn-meditation" data-toggle="modal" data-target="#modal-service">
+							Book now
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-- /pricing -->
+			
 		</div>
 		<!-- Row -->
 

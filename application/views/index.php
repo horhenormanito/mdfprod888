@@ -64,10 +64,6 @@
 	<?php include("about.php");?>
 	<!-- /About -->
 
-	<!-- Gallery -->
-	<?php include("gallery.php");?>
-	<!-- /Gallery -->
-
 	<!-- Numbers -->
 	<div id="numbers" class="section sm-padding">
 
@@ -98,6 +94,14 @@
 	<!-- Services and Pricing -->
 	<?php include("services/service-main.php");?>
 	<!-- /Services and Pricing -->
+	
+	<!-- Link -->
+	<?php include("link.php");?>
+	<!-- /Link -->
+	
+    <!-- Gallery -->
+	<?php include("gallery.php");?>
+	<!-- /Gallery -->
 
 	<!-- Team -->
 	<?php include("team.php");?>
@@ -105,7 +109,9 @@
 	
 	<!-- News -->
 	<?php include("news.php");?>
-	<!-- /News -->			
+	<!-- /News -->
+	
+
 	
 	<!-- Contact -->
 	<?php include("contact.php");?>

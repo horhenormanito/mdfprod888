@@ -42,7 +42,7 @@
 				<div id="team-slider" class="owl-carousel owl-theme">
 				
 					<!-- Partner -->
-						<div class="team">
+					<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/Exp.png" alt="">
 							</div>
@@ -51,7 +51,7 @@
 
 
 					<!-- Partner -->
-						<div class="team">
+					<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/Aids.png" alt="">
 							</div>
@@ -59,7 +59,7 @@
 					<!-- /Partner -->	
 					
 					<!-- Partner -->
-						<div class="team">
+					<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/Cubs Society.png" alt="">
 							</div>
@@ -68,7 +68,7 @@
 					
 
 					<!-- Partner -->
-						<div class="team">
+					<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/Ginoong Pilipinas Logo.png" alt="">
 							</div>
@@ -77,7 +77,7 @@
 					
 
 					<!-- Partner -->
-						<div class="team">
+					<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/Mc Bridge.png" alt="">
 							</div>
@@ -86,7 +86,7 @@
 					
 					
 					<!-- Partner -->
-						<div class="team">
+					<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/My Tsikiting.png" alt="">
 							</div>
@@ -94,7 +94,7 @@
 					<!-- /Partner -->	
 
 					<!-- Partner -->
-						<div class="team">
+					<div class="team">
 							<div class="team-meta">
 								<img src="./data/img/Nyd.png" alt="">
 							</div>
