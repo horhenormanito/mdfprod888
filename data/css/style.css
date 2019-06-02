@@ -327,15 +327,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     left: 0;
     right: 0;
     padding: 0px 0px;
-    background-color: #45543D !important;
-    background-image: linear-gradient(to right, #45543D, #637508);
+    background-image: linear-gradient(to right, #45543D, #637508) !important;
     border-bottom: 1px solid #EEE;
 }
 
 #nav.nav-transparent {
     background: transparent;
-    background-color: #45543D;
-    background-image: linear-gradient(to right, #4c5425, #637508);
+    background-image: linear-gradient(to right, #4c5425, #637508) !important;
 }
 
 
@@ -2001,8 +1999,6 @@ div[id*="modal-"] .modal-content{
 }
 
 .text-effect p {
-  padding-top: 3em; 
-  padding-bottom: 2.67em;
   position: auto;
   font-family: 'Raleway',sans-serif;
   text-transform: uppercase;
@@ -2029,4 +2025,15 @@ div[id*="modal-"] .modal-content{
 
 #link{
 	margin-top: 2em;
+}
+
+#nav.nav-transparent{
+/* 	background-image: background-image: linear-gradient(to right, #45543D, #637508); */
+}
+
+.presents {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
 }

@@ -23,7 +23,8 @@
     	      
     	      <!-- Slide 1.1 : Active -->
     	      <div class="item core-logo text-effect">
-    	      	<div>
+    	      		<img src="./data/img/home-spacer.png" alt="">
+    	      	<div class="presents">    	      		
     	      		<p>Presents</p>
     	      	</div>	
 <!--         	        <img src="./data/img/presents.png" alt=""> -->
@@ -39,13 +40,15 @@
     	        </div><!-- /.carousel-caption -->
     	      </div><!-- /Slide2 -->
     	
+    	
+    	      <!-- Slide 2.1 -->
+    	      <div class="item core-logo">
+    	        <img src="./data/img/link-mdf.png" alt="">
+    	        <div class="carousel-caption">
+<!--     	        	<div class ="animated-text"><div>CALM</div><span>ONESELF</span> </div> -->
+    	        </div><!-- /.carousel-caption -->
+    	      </div><!-- /Slide2.1 -->    	
 
-    	      <!-- Slide 1.1 : Active -->
-    	      <div class="item core-logo text-effect">
-    	      	<div>
-    	      		<p><b>L | I | N | K</b></p>
-    	      	</div>
-    	      </div><!-- /Slide1.1 -->    
     	
     	    </div><!-- /.carousel-inner -->
     	    
