@@ -1,21 +1,60 @@
 <!-- Pricing -->
 <div id="service" class="section md-padding">
+<div class="section md-padding bg-grey"></div>
 
 	<!-- Container -->
-	<div class="container">
+	<div class="container service-container">
 
 		<!-- Row -->
 		<div class="row">
-
 			<!-- Section header -->
 			<div class="section-header text-center">
-				<h2 class="title">C | O | R | E</h2>
+				<div class="container">
+					<img class="img-responsive flat-logo" src="./data/img/Core Logo flat.png" alt="" style="margin-bottom: 10px;">
+				</div>
 				<p>
 					<h3  class="section-header text-center">"A multi-faceted community space that aspires to inspire passionate souls - a space where one can express themselves freely and uniquely."
 					</h3>
 				</p>
 			</div>
 			<!-- /Section header -->
+			
+		</div>
+		
+	</div>
+	
+	<!-- Numbers -->
+	<div id="numbers" class="section sm-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./data/img/background2.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- number -->
+					<p> <h3  class="section-header text-center white-text">"The Core is a space that welcomes all walks of life who yearn to physically manifest their inner core - whether they may be a performer, a fitness instructor, a craftsman, an art exhibitor or plainly, someone looking for a good time. "</h3></p>
+				<!-- /number -->
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Numbers -->
+	
+	<!-- Container -->
+	<div class="container">
+		
+		<div class="row">
+			
 			
 		    <!-- /Section header -->
 			<div class="section-header text-center">
@@ -52,6 +91,7 @@
 				</div>
 			</div>
 			<!-- /about -->
+
 			
 			<div class="col-md-12"/>
 			
@@ -195,6 +235,8 @@
 				</div>
 			</div>
 			<!-- /pricing -->
+			
+			
 			
 		</div>
 		<!-- Row -->

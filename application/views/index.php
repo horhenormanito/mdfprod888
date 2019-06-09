@@ -64,33 +64,6 @@
 	<?php include("about.php");?>
 	<!-- /About -->
 
-	<!-- Numbers -->
-	<div id="numbers" class="section sm-padding">
-
-		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./data/img/background2.jpg');">
-			<div class="overlay"></div>
-		</div>
-		<!-- /Background Image -->
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- number -->
-					<p> <h3  class="section-header text-center white-text">"The Core is a space that welcomes all walks of life who yearn to physically manifest their inner core - whether they may be a performer, a fitness instructor, a craftsman, an art exhibitor or plainly, someone looking for a good time. "</h3></p>
-				<!-- /number -->
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Numbers -->
-
 	<!-- Services and Pricing -->
 	<?php include("services/service-main.php");?>
 	<!-- /Services and Pricing -->
@@ -119,7 +92,7 @@
 	
 	<div id="copyright" class="container">
 		<ul class="links">
-			<li>&copy;HORIAN. All rights reserved.</li>
+			<li>Website by &copy;HORIAN. All rights reserved.</li>
 		</ul>
 	</div>
 

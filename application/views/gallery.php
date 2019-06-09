@@ -1,5 +1,6 @@
 <!-- Portfolio -->
-<div id="portfolio" class="section md-padding bg-grey">
+<div class="section md-padding bg-grey"></div>
+<div id="portfolio" class="section md-padding">
 
 	<!-- Container -->
 	<div class="container">
@@ -337,7 +338,7 @@
 
 
 <!-- Why Choose Us -->
-<div id="features" class="section md-padding bg-grey">
+<div id="features" class="section md-padding">
 
 	<!-- Container -->
 	<div class="container">
@@ -345,36 +346,13 @@
 		<!-- Row -->
 		<div class="row">
 
-			<!-- why choose us content -->
+			<!-- /featured video text -->
 			<div class="col-md-4 feature-title">
 				<div class="section-header feature-title">
 					<h2 >Featured Videos</h2>
 				</div>
-				<div class="feature-container">
-    				<div style="text-align: left;">
-    					<div class="feature">
-        					<p>Be part of The Core Dance Group...</p>
-        				</div>
-        				<div class="feature">
-        					<i class="fa fa-check"></i>
-        					<p>Express Yourself At The Core.</p>
-        				</div>
-        				<div class="feature">
-        					<i class="fa fa-check"></i>
-        					<p>Be Part Of Us.</p>
-        				</div>
-        				<div class="feature">
-        					<i class="fa fa-check"></i>
-        					<p>Aspire to Inspire at The Core!</p>
-        				</div>
-        				<div class="feature">
-        					<i class="fa fa-check"></i>
-        					<p>Release Yourself And See You.</p>
-        				</div>
-        			</div>
-				</div>
 			</div>
-			<!-- /why choose us content -->
+			<!-- /featured video text -->
 
 			<!-- About featured video -->
 			<div class="col-md-8">	
@@ -398,7 +376,7 @@
                                 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
                                 <div class="fb-video"
                                     data-href="https://www.facebook.com/mdfprod888/videos/686250381829875/"                                    
-                                    data-width="500"
+                                    data-width="800"
                                     data-allowfullscreen="true">
                                 </div>
                 
@@ -450,10 +428,9 @@
                     	
                     	  </div><!-- /##videoCarousel -->
                     	  
-                    	</section><!-- /.main-slider -->			
+                    </section><!-- /.main-slider -->			
 			
-            </div>
-                    					
+            </div>               					
 			<!-- About featured video -->
 
 		</div>

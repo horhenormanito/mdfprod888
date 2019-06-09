@@ -1,4 +1,5 @@
 <!-- Team -->
+<div class="section md-padding bg-grey"></div>
 <div id="team" class="section md-padding">
 
 	<!-- Container -->

@@ -126,7 +126,7 @@ ul, ol {
 }
 
 .sm-padding {
-    padding-top: 60px;
+    padding-top: 1px;
     padding-bottom: 60px;
 }
 
@@ -887,6 +887,27 @@ header {
     border-radius: 25px;
 }
 
+.service-container {
+	padding-top: 360px;
+}
+
+.flat-logo {
+	max-width: 250px;
+	position: absolute;
+	top: -160px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.link-container {
+	padding-top: 360px;
+}
+
+#videoCarousel{
+	padding-top: 3px;
+	padding-bottom: 10px;
+	min-height: 500px;
+}
 /*------------------------------------*\
 	Why choose us
 \*------------------------------------*/
@@ -2008,9 +2029,9 @@ div[id*="modal-"] .modal-content{
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 3s linear infinite;
+  animation: animate 2s linear infinite;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(213, 188, 16, 0.68);
+  -webkit-text-fill-color: rgba(222, 195, 12, 0.23);
  }
 
 
@@ -2031,9 +2052,11 @@ div[id*="modal-"] .modal-content{
 /* 	background-image: background-image: linear-gradient(to right, #45543D, #637508); */
 }
 
+/* center image */
 .presents {
 	  position: absolute;
 	  top: 50%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 }
+

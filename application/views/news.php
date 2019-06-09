@@ -1,5 +1,6 @@
 <!-- News -->
-<div id="blog" class="section md-padding bg-grey">
+<div id="blog" class="section md-padding">
+<div class="section md-padding bg-grey"></div>
 
 	<!-- Container -->
 	<div class="container">
