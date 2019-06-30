@@ -32,7 +32,7 @@
 					<img class="img-responsive" src="./data/img/Musical.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<h3>MUSICAL</h3>
+						<h3>MONSTERS THE MUSICAL</h3>
 					</div>
 				</a>
 			</div>
@@ -142,25 +142,49 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<div class="pull-left white-text">Musical</div>
+				<div class="pull-left white-text">Monsters The Musical</div>
 				<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 			</div>
 			<div class="modal-body">
 				<!--Musical-->
 				<div id="gallery-musical" class="carousel slide" data-interval="false">
 					<div class="carousel-inner gallery-item">
-						<div class="item active"> <img src="./data/img/musical1.jpg" alt="item0">
+						<div class="item active"> <img src="./data/img/Musical1.jpg" alt="item0">
 							<div class="carousel-caption">
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/musical2.jpg" alt="item1">
+						<div class="item"> <img src="./data/img/Musical2.jpg" alt="item1">
 							<div class="carousel-caption">
 							</div>
 						</div>
-						<div class="item"> <img src="./data/img/musical3.jpg" alt="item2">
+						<div class="item"> <img src="./data/img/Musical3.jpg" alt="item2">
 							<div class="carousel-caption">
 							</div>
 						</div>
+						<div class="item"> <img src="./data/img/Musical4.jpg" alt="item1">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/Musical5.jpg" alt="item1">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/Musical6.jpg" alt="item1">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/Musical7.jpg" alt="item1">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/Musical8.jpg" alt="item1">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item"> <img src="./data/img/Musical1.jpg" alt="item1">
+							<div class="carousel-caption">
+							</div>
+						</div>																								
 					</div>
 					<!--Begin Previous and Next buttons-->
 					<a class="left carousel-control" href="#gallery-musical" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
