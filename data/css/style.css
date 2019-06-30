@@ -903,7 +903,7 @@ header {
 	padding-top: 360px;
 }
 
-#videoCarousel{
+#videoCarousel, #videoCarouselLink{
 	padding-top: 3px;
 	padding-bottom: 10px;
 	min-height: 500px;

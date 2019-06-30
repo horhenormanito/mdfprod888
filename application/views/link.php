@@ -66,11 +66,11 @@
 			<div class="col-md-8">	
 				
                 	<section class="main-slider">
-                   		<div id="videoCarousel" class="carousel slide carousel-fade" data-interval="false">
+                   		<div id="videoCarouselLink" class="carousel slide carousel-fade" data-interval="false">
                     		<!-- Indicators -->
                     		<ol class="carousel-indicators">
-                    	      <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
-                    	      <li data-target="#videoCarousel" data-slide-to="1"></li>
+                    	      <li data-target="#videoCarouselLink" data-slide-to="0" class="active"></li>
+                    	      <li data-target="#videoCarouselLink" data-slide-to="1"></li>
                        	    </ol>
                        	    
                     	    <!-- Carousel items -->
@@ -108,12 +108,12 @@
                     	    
                     	    <!-- Controls -->
                     	    <div class="control-box">
-                    	      <a class="left carousel-control" href="#videoCarousel" role="button" data-slide="prev">
+                    	      <a class="left carousel-control" href="#videoCarouselLink" role="button" data-slide="prev">
                     	        <span class="control-icon prev fa fa-chevron-left" aria-hidden="true"></span>
                     	        <span class="sr-only">Previous</span>
                     	      </a>
                     	      
-                    	      <a class="right carousel-control" href="#videoCarousel" role="button" data-slide="next">
+                    	      <a class="right carousel-control" href="#videoCarouselLink" role="button" data-slide="next">
                     	        <span class="control-icon next fa fa-chevron-right" aria-hidden="true"></span>
                     	        <span class="sr-only">Next</span>
                     	      </a>
