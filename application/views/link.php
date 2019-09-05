@@ -43,20 +43,28 @@
     				<div style="text-align: left;">
         				<div class="feature">
         					<i class="fa fa-check"></i>
-        					<p>Express Yourself At The Core.</p>
+        					<p>Skilled Dancer</p>
         				</div>
         				<div class="feature">
         					<i class="fa fa-check"></i>
-        					<p>Be Part Of Us.</p>
+        					<p>Competent Performer</p>
         				</div>
         				<div class="feature">
         					<i class="fa fa-check"></i>
-        					<p>Aspire to Inspire at The Core!</p>
+        					<p>Professional, Punctual & Passionate</p>
         				</div>
         				<div class="feature">
         					<i class="fa fa-check"></i>
-        					<p>Release Yourself And See You.</p>
+        					<p>Committed & Creative</p>
         				</div>
+        				<div class="feature">
+        					<i class="fa fa-check"></i>
+        					<p>Strong Sense of Teamwork</p>
+        				</div>   
+        				<div class="feature">
+        					<i class="fa fa-check"></i>
+        					<p>Observes RESPECT above all!</p>
+        				</div>        				     				
         			</div>
 				</div>
 			</div>

@@ -29,7 +29,7 @@
 				<div class="col align-center">
 					<div class="contact">
 						<i class="fa fa-phone"></i>
-						<p>(+63)967 289 8891</p>
+						<p>(032) 326 1548</p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -47,7 +47,7 @@
 				<div class="col align-center">
 					<div class="contact">
 						<i class="fa fa-map-marker"></i>
-						<p>FLC Center, 888 Hernan Cortes St, Mandaue City, 6014 Cebu, Philippines</p>
+						<p>UNIT 2A, FLC Center, 888 Hernan Cortes St, Mandaue City, 6014 Cebu, Philippines</p>
 					</div>
 				</div>
 				<!-- /contact -->

@@ -64,10 +64,12 @@
 
 			<!-- about -->
 			<div class="col-md-4">
-				<div class="about" >
+				<div class="about" style="font-size: 13px !important;" >
 				<img class="img-responsive" src="./data/img/bose.jpg" alt="" style="margin-bottom: 10px;">
-					<h3>State-of-the-art Equipment</h3>
-					<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHighest quality Bose sound system, fully soundproofed interior, sprung wood dance floor and mirror walls for the best experience. </p>
+					<h3>State-of-the-art Facilities</h3>
+					<p>- A 100 sq.m space equipped with 2 High quality BOSE wall speakers and a floor subwoofer. Mixer has a bluetooth option connection with 6 universal line-ins. </p> 
+					<p>- Floor is a standard lamina wooden sprung floor with mirrors perfect and ready for dance or any movement activities. </p> 
+					<p>- Full Black-out curtains that covers the door, windows and including mirrors to transform the space for other activities.  </p>
 				</div>
 			</div>
 			<!-- /about -->
@@ -76,8 +78,8 @@
 			<div class="col-md-4">
 				<div class="about">
 				<img class="img-responsive" src="./data/img/savings.jpg" alt="" style="margin-bottom: 10px;"> 
-					<h3>Very Affordable Rates</h3>
-					<p>Enjoy the best the industry has to offer at the most affordable price in the market.</p>
+					<h3>Friendly Rates</h3>
+					<p>Enjoy optimum satisfaction at the most friendly prices offered. </p>
 				</div>
 			</div>
 			<!-- /about -->
@@ -87,7 +89,7 @@
 				<div class="about">
 				<img class="img-responsive" src="./data/img/best team.jpg" alt="" style="margin-bottom: 10px;">
 					<h3>The Most Awesome Team</h3>
-					<p>Work with one of the most talented and awesome teams who share your passion and help bring out the best version of yourself. </p>
+					<p>Run by strongly talented duo who share your passion and love to help in bringing out the best version of yourself. </p>
 				</div>
 			</div>
 			<!-- /about -->
@@ -108,21 +110,17 @@
 					<div class="price-head">
 						<span class="price-title">Space Rental</span>
 						<div class="price">
-							<h3>P2,588<span class="duration">/ 4 Hours</span></h3>
+							<h3>P688 only<span class="duration">/ HOURLY</span></h3>
 						</div>
 					</div>
 					<ul class="price-content">
 						<li>
-							<p>P3,888 : 6 Hours</p>
-						</li>
-						<li>
-							<p>P5,188 : 8 Hours</p>
-						</li>
-						<li>
-							<p>P6,488 : 10 Hours</p>
-						</li>
-						<li>
-							<p>P7,788 : 12 Hours</p>
+							<p>P1,188 : 2 Hours 
+							<br>P3,888 : 6 Hours
+							<br>P5,188 : 8 Hours
+							<br>P6,488 : 10 Hours
+							<br>P7,788 : 12 Hours
+							</p>
 						</li>		
 					</ul>
 					<div class="price-btn">
@@ -145,10 +143,7 @@
 					</div>
 					<ul class="price-content">
 						<li>
-							<p>Fridays <br>6:00 PM - 7:00 PM</p>
-						</li>
-						<li>
-							<p>By: Jeff Dan Barientos</p>
+							<p>Please refer to our official Facebook page for schedule updates.</p>
 						</li>
 					</ul>
 					<div class="price-btn">
@@ -168,13 +163,7 @@
 					</div>
 					<ul class="price-content">
 						<li>
-							<p>Mondays <br>7:00 PM - 8:00 PM</p>
-						</li>
-						<li>
-							<p>Fridays <br>7:00 PM - 8:00 PM</p>
-						</li>
-						<li>
-							<p>By: Juan Carlos</p>
+							<p>Please refer to our official Facebook page for schedule updates.</p>
 						</li>
 					</ul>
 					<div class="price-btn">
@@ -198,10 +187,7 @@
 					</div>
 					<ul class="price-content">
 						<li>
-							<p>Wednesdays <br>7:00 PM - 8:00 PM</p>
-						</li>
-						<li>
-							<p>By: Mia Cabarrubias</p>
+							<p>Please refer to our official Facebook page for schedule updates.</p>
 						</li>
 					</ul>
 					<div class="price-btn">
@@ -224,7 +210,7 @@
 					</div>
 					<ul class="price-content">
 						<li>
-							<p>Mondays <br>6:00 PM - 7:00 PM</p>
+							<p>Please refer to our official Facebook page for schedule updates.</p>
 						</li>
 					</ul>
 					<div class="price-btn">

@@ -665,7 +665,7 @@ header {
     border: 1px solid #EEE;
     margin: 15px 0px;
     border-radius: 20px;
-    min-height: 571px;
+    min-height: 670px;
 }
 
 .about i {
@@ -685,7 +685,6 @@ header {
     margin: auto;
 }
 
- 
 
 .about:after {
     content: "";
@@ -715,7 +714,6 @@ header {
 .about:hover h3 {
     color: #fff;
 }
-
 
 /*------------------------------------*\
 	Portfolio
@@ -2031,7 +2029,7 @@ div[id*="modal-"] .modal-content{
   background-size: 80%;
   animation: animate 2s linear infinite;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(222, 195, 12, 0.23);
+  -webkit-text-fill-color: rgba(245, 183, 10, 0.52);
  }
 
 
