@@ -67,7 +67,7 @@
 				<div class="about" style="font-size: 13px !important;" >
 				<img class="img-responsive" src="./data/img/bose.jpg" alt="" style="margin-bottom: 10px;">
 					<h3>State-of-the-art Facilities</h3>
-					<p>- A 100 sq.m space equipped with 2 High quality BOSE wall speakers and a floor subwoofer. Mixer has a bluetooth option connection with 6 universal line-ins. </p> 
+					<p>- A 100 sq.m space equipped with 2 High quality BOSE wall speakers and a floor subwoofer. Mixer has a bluetooth connection option with 6 universal line-ins. </p> 
 					<p>- Floor is a standard lamina wooden sprung floor with mirrors perfect and ready for dance or any movement activities. </p> 
 					<p>- Full Black-out curtains that covers the door, windows and including mirrors to transform the space for other activities.  </p>
 				</div>
@@ -138,7 +138,7 @@
 					<div class="price-head">
 						<span class="price-title">Yoga</span>
 						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
+							<h3>P188<span class="duration">/Session</span></h3>							
 						</div>
 					</div>
 					<ul class="price-content">
@@ -158,7 +158,7 @@
 					<div class="price-head">
 						<span class="price-title">Zumba</span>
 						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P1,288<span class="duration">/Mo.</span></h3>							
+							<h3>P188<span class="duration">/Session</span></h3>							
 						</div>
 					</div>
 					<ul class="price-content">
@@ -182,7 +182,7 @@
 					<div class="price-head">
 						<span class="price-title">Pop Dance</span>
 						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
+							<h3>P188<span class="duration">/Session</span></h3>							
 						</div>
 					</div>
 					<ul class="price-content">
@@ -205,7 +205,7 @@
 					<div class="price-head">
 						<span class="price-title">Meditation</span>
 						<div class="price">
-							<h3>P188<span class="duration">/Session</span>P588<span class="duration">/Mo.</span></h3>							
+							<h3>P188<span class="duration">/Session</span></h3>							
 						</div>
 					</div>
 					<ul class="price-content">
