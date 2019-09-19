@@ -222,6 +222,28 @@
 			</div>
 			<!-- /pricing -->
 			
+			<!-- pricing -->
+			<div class="col-sm-3 service-area">
+				<div class="pricing">
+					<div class="price-head">
+						<span class="price-title">LINK Performance/s</span>
+						<div class="price">
+							<h3><span class="duration">Rate varies</span></h3>							
+						</div>
+					</div>
+					<ul class="price-content">
+						<li>
+							<p>Quality and professional dance performances for events.</p>
+						</li>
+					</ul>
+					<div class="price-btn">
+						<button class="outline-btn" id="btn-service-link" data-toggle="modal" data-target="#modal-service">
+							Book now
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-- /pricing -->
 			
 			
 		</div>

@@ -33,6 +33,10 @@ $( "#btn-sexy-tease" ).click(function() {
   $('#modal-service').data('subtype','Sexy Tease Dance'); //setter
 });
 
+$( "#btn-service-link" ).click(function() {
+  $('#modal-service').data('subtype','LINK Performance/s'); //setter
+});
+
 
 function submitContactForm($url){
     var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
